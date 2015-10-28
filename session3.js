@@ -1,3 +1,4 @@
+'use strict';
 /*
 	Hands-On Session 3
 */
@@ -5,39 +6,33 @@
 /*
 	Objects
 */
-function newEmployee(firstname, lastname, age){
-	'use strict';
-	return {
-		firstname: firstname,
-		lastname: lastname,
-		age: age
+function employee(firstname, lastname, age){
+	this.firstname = firstname;
+	this.lastname = lastname;
+	this.age = age;
+}
+
+function department(name) {
+	this.name = name;
+	this.employees = [];
+	this.addNewEmployee = function(employee) {
+		this.employees.push(employee);
 	};
 }
+var me = new employee('Christoph', 'Kisfeld', '26');
+var otherone = new employee('Max', 'Mustermann', '27');
+var ifgi = new department('ifgi');
+ifgi.addNewEmployee(me);
+ifgi.addNewEmployee(otherone);
 
-function newDepartment(name) {
-	'use strict';
-	var empl = [];
-	return {
-		name: name,
-		employees: empl
-	};
-}
-
-function addNewEmployee(department, employee) {
-	department.employees.push(employee);
-}
-
-
-var me = newEmployee('Christoph', 'Kisfeld', '26');
-var otherone = newEmployee('Max', 'Mustermann', '27');
-var ifgi = newDepartment('ifgi');
-
-addNewEmployee(ifgi, me);
-addNewEmployee(ifgi, otherone);
-
+console.log(ifgi);
 console.log(ifgi.toSource());
-// ({name:"ifgi", employees:[{firstname:"Christoph", lastname:"Kisfeld", age:"26"}, {firstname:"Max", lastname:"Mustermann", age:"27"}]})
-
+/*
+({name:"ifgi", employees:[{firstname:"Christoph", lastname:"Kisfeld", age:"26"}, {firstname:"Max", lastname:"Mustermann", age:"27"}], addNewEmployee:(function (employee) {
+"use strict";
+		this.employees.push(employee);
+	})})
+*/
 
 /*
 	Passage by reference and by value
@@ -72,5 +67,5 @@ window.addEventListener('resize', function(evt){
 
 /*
 	Minify
-	see .min.js
+	see sesion3.min.js
 */
