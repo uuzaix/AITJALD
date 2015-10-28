@@ -55,11 +55,11 @@ function willChange(x) {
 }
 var x1 = 10;
 willNotChange(x1);
-console.log(x1); // 10
+console.log(x1); // x1 = 10
 
-var x2 = 10;
+var x2 = { num: 10 };
 willChange(x2);
-console.log(x2); // 2
+console.log(x2); // x2.num = 2
 
 /*
 	Events
