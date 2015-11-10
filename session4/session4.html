@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Session 4</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+	body, html {
+		font-family: sans-serif;
+		padding: 0;
+		margin: 0;
+	}
+	#container {
+		width: 500px;
+		margin: auto;
+	}
+	legend {
+		font-weight: bold;
+	}
+	input[type=submit] {
+		background-color: #bfb;
+		background-image: linear-gradient(0deg, #6f6, #bfb);
+		border-radius: 3px;
+		border: 2px solid #0b0;
+		width: 75px;
+		height: 33px;
+	}
+	#studentabout {
+		font-family: sans-serif;
+		font-size: 90%;
+		width: 100%;
+		height: 100px;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<h1>Course: An Introduction to Javascript and Linked Data</h1>
+		<h2>Semester: Winter Semester 2015/2016</h2>
+		<p>When? Every Wednesday</p>
+		<p id="paraWhere">Where? Institute for Geoinformatics, Geo1, 3rd Floor, Room 323</p>
+		<p>Course Language: English</p>
+
+		<form>
+			<fieldset>
+			<legend>Some information about me:</legend>
+				<p><label for="studentname">First name: </label><input type="text" name="studentname" id="studentname"/></p>
+				<p><label for="studentpassword">Password: </label><input type="password" name="studentpassword" id="studentpassword"/></p>
+				
+				<p>Target degree:</p>
+				<input type="radio" name="studenttarget" id="studenttarget1"><label for="studenttarget1">Bachelor</label>
+				<input type="radio" name="studenttarget" id="studenttarget2"><label for="studenttarget2">Master</label>
+				<input type="radio" name="studenttarget" id="studenttarget3"><label for="studenttarget3">PhD</label>
+				<input type="radio" name="studenttarget" id="studenttarget4"><label for="studenttarget4">None of these</label>
+				
+				
+				<p>Why I have decided to study Geoinformatics:</p>
+				<input type="checkbox" name="studentwhy" id="studentwhy1"/> <label for="studentwhy1">I'm interested in everything related to geography</label><br/>
+				<input type="checkbox" name="studentwhy" id="studentwhy2"/> <label for="studentwhy2">I'm interested in everything related to informatics</label><br/>
+				<input type="checkbox" name="studentwhy" id="studentwhy3"/> <label for="studentwhy3">I have to study</label><br/>
+				<input type="checkbox" name="studentwhy" id="studentwhy4"/> <label for="studentwhy4">I like to study</label><br/>
+
+				<p>
+					Here is my CV: 
+					<input type="file"/>
+				</p>
+
+				<p>
+					<textarea name="studentabout" id="studentabout" placeholder="Tell us a bit about yourself"></textarea>
+				</p>
+
+				<p>
+					<input type="text" id="datepicker">
+					<label for="datepicker">When did you start studying?</label>
+				<p>
+					<label for="studentice">For statistical purposes: Do you like ice cream?</label>
+					<select name="studentice" id="studentice">
+						<option>Yes</option>
+						<option>No</option>
+					</select>
+				</p>
+				
+				<br/>
+				<input type="submit" value="Send" id="sendbutton"/>
+				<br/>
+			</fieldset>
+			<fieldset>
+			<legend>Fun buttons</legend>
+				<button type="button" id="SelectAll"/>Select All Checkboxes</button>
+				<button type="button" id="AddNew"/>Add New Paragraph</button>
+				<button type="button" id="FadeOutParagraphs"/>FadeOut Paragraphs</button>
+				<button type="button" id="HideInput"/>Hide Input Elements</button>
+				<button type="button" id="DisableSubmit"/>Disable Submit Button</button>
+			</fieldset>
+		</form>
+
+		<div id="dialogContent">Hello, <br/>please fill out this short survey.</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script type="text/javascript" src="session4.js"></script>
+</body>
+</html>
