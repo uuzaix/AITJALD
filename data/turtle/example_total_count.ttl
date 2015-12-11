@@ -48,7 +48,7 @@ sms:CityAdministrationMuensterDPT a vcard:Organization, dc:Agent;
 	vcard:hasFN "Stadt Münster - Amt für Stadtentwicklung, Stadtplanung, Verkehrsplanung"@de;
 	vcard:hasEmail "mailto:statistik@stadt-muenster.de";
 	vcard:hasAddress [
-		vcard:hasPostalCode "48127";
+		vcard:postal-code "48127";
 		vcard:locality "Münster";
 		vcard:country "Germany"
 	];

@@ -1,0 +1,261 @@
+@prefix schema: <http://schema.org/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix sdmx:  <http://purl.org/linked-data/sdmx#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix lodcom: <http://www.muenster.de/stadt/stadtplanung/zahlen#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+lodcom:TotalHouseholdCount
+        a                           qb:DataSet ;
+        rdfs:comment                "Number of Households in M&uuml;nster in total - extracted from M&uuml;nster city statistics"@en ;
+        rdfs:label                  "Haushalte der Wohnberechtigen Bevölkerung"@de , "Total Household Count in M&uuml;nster"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:HouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:SingleHouseholdGenderCount
+        a             qb:DataSet ;
+        rdfs:label    "1-Personen-Haushalte der Wohnberechtigten Bevölkerung 2014 nach Geschlecht"@de , "Single Households in 2014 divided by Gender"@en ;
+        dc:publisher  lodcom:CityAdministrationMuensterDPT ;
+        qb:structure  lodcom:SingleGenderHouseholdCountsStructure .
+
+lodcom:AgeInterval_70_79
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "79"^^xsd:int ;
+        lodcom:min                  "70"^^xsd:int .
+
+lodcom:AgeInterval_50_59
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "59"^^xsd:int ;
+        lodcom:min                  "50"^^xsd:int .
+
+lodcom:AgeInterval_30_39
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "39"^^xsd:int ;
+        lodcom:min                  "30"^^xsd:int .
+
+lodcom:FivePersonsMoreHouseholdCount
+        a                           qb:DataSet ;
+        rdfs:label                  "5- und mehr Personen-Haushalte der Wohnberechtigten Bevölkerung"@de , "Total Household Count of 5-Person Households and more"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:HouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:refPeriod  a         qb:DimensionProperty , rdf:Property ;
+        rdfs:label          "reference period"@en ;
+        rdfs:range          interval:Interval ;
+        rdfs:subPropertyOf  sdmx-dimension:refPeriod ;
+        qb:concept          qb:refPeriod .
+
+lodcom:averageMeasure
+        qb:measure  lodcom:averagePersonsPerHousehold .
+
+lodcom:countMeasure  qb:measure  lodcom:numberOfHouseholds .
+
+lodcom:Household  a       rdfs:Class ;
+        rdfs:comment      "a person or a group of people registered in a city that live together"@en ;
+        rdfs:isDefinedBy  <http://www.muenster.de/stadt/stadtplanung/pdf/SMS_Haushalte_2014.pdf> ;
+        rdfs:label        "Haushalt"@de , "Household"@en .
+
+lodcom:AveragePersons
+        a           rdfs:Class ;
+        rdfs:label  "Durchschnittliche Anzahl an Personen pro Haushalt"@de , "average persons per household"@en .
+
+lodcom:refArea  a           qb:DimensionProperty , rdf:Property ;
+        rdfs:label          "reference area"@en ;
+        rdfs:range          dbo:AdministrativeRegion ;
+        rdfs:subPropertyOf  sdmx-dimension:refArea ;
+        qb:concept          qb:refArea .
+
+lodcom:PercentHouseholds
+        a           rdfs:Class ;
+        rdfs:label  "Prozent an Haushalten"@de , "percent on households"@en .
+
+lodcom:CityAdministrationMuensterDPT
+        a                          dc:Agent , vcard:Organization ;
+        vcard:hasAddress           [ vcard:country      "Deutschland"@de , "Germany"@en ;
+                                     vcard:locality     "Münster"@de ;
+                                     vcard:postal-code  "48127"
+                                   ] ;
+        vcard:hasEmail             "mailto:statistik@stadt-muenster.de" ;
+        vcard:hasFN                "Stadt Münster - Amt für Stadtentwicklung, Stadtplanung, Verkehrsplanung"@de ;
+        vcard:hasOrganizationName  "Stadt Münster"@de ;
+        vcard:hasOrganizationUnit  "Amt für Stadtentwicklung, Stadtplanung, Verkehrsplanung"@de ;
+        vcard:hasTelephone         [ a               vcard:Voice ;
+                                     vcard:hasValue  "tel: +492514921234"
+                                   ] .
+
+lodcom:attributeOnObs
+        qb:attribute            sdmx-attribute:unitMeasure ;
+        qb:componentAttachment  qb:Observation ;
+        qb:componentRequired    true .
+
+lodcom:AveragePersonsPerHousehold
+        a                           qb:DataSet ;
+        rdfs:label                  "Durchschittliche Haushaltegröße der Wohnberechtigten Bevölkerung"@de , "Average household sizes"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:AveragePersonsPerHouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:AveragePersons .
+
+lodcom:averagePersonsPerHousehold
+        a                   qb:MeasureProperty , rdf:Property ;
+        rdfs:label          "average persons per household"@en ;
+        rdfs:range          xsd:float ;
+        rdfs:subPropertyOf  sdmx-measure:obsValue .
+
+lodcom:ageInterval  a  qb:DimensionProperty , rdf:Property ;
+        rdfs:label  "age intervals"@en ;
+        rdfs:range  lodcom:AgeRange .
+
+lodcom:AgeInterval_40_49
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "49"^^xsd:int ;
+        lodcom:min                  "40"^^xsd:int .
+
+lodcom:AgeInterval_20_29
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "29"^^xsd:int ;
+        lodcom:min                  "20"^^xsd:int .
+
+lodcom:percentageMeasure
+        qb:measure  lodcom:percentageOfHouseholds .
+
+lodcom:percentageOfHouseholds
+        a                   qb:MeasureProperty , rdf:Property ;
+        rdfs:label          "percentage of households"@en ;
+        rdfs:range          xsd:float ;
+        rdfs:subPropertyOf  dbo:percentage , sdmx-measure:obsValue .
+
+lodcom:AveragePersonsPerHouseholdCountsStructure
+        a             qb:DataStructureDefinition ;
+        qb:component  lodcom:attributeOnDS , lodcom:averageMeasure , lodcom:refPeriodDim , lodcom:refAreaDim .
+
+lodcom:AgeRange  a  rdfs:Class ;
+        rdfs:label  "Age Range"@en , "Altersgruppe"@de .
+
+lodcom:TwoPersonsHouseholdCount
+        a                           qb:DataSet ;
+        rdfs:label                  "2-Personen-Haushalte der Wohnberechtigten Bevölkerung"@de , "Total Household Count of 2-Person Households"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:HouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:refPeriodDim  qb:dimension  lodcom:refPeriod .
+
+lodcom:SingleHouseholdTotalCount
+        a                           qb:DataSet ;
+        rdfs:label                  "1-Personen-Haushalte der Wohnberechtigten Bevölkerung"@de , "Total Household Count of Single Households"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:HouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:AgeInterval_0_9
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "9"^^xsd:int ;
+        lodcom:min                  "0"^^xsd:int .
+
+lodcom:ageIntervalDim
+        qb:dimension  lodcom:ageInterval .
+
+lodcom:SingleParentHouseholdCount
+        a                           qb:DataSet ;
+        rdfs:label                  "Alleinerziehende Haushalte der Wohnberechtigten Bevölkerung"@de , "Households with single parent"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:HouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:ThreePersonsHouseholdCount
+        a                           qb:DataSet ;
+        rdfs:label                  "3-Personen-Haushalte der Wohnberechtigten Bevölkerung"@de , "Total Household Count of 3-Person Households"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:HouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:HouseholdCountsStructure
+        a             qb:DataStructureDefinition ;
+        rdfs:comment  "number of households in an administrative area in M&uuml;nster (Germany)"@en ;
+        qb:component  lodcom:attributeOnDS , lodcom:countMeasure , lodcom:refPeriodDim , lodcom:refAreaDim .
+
+lodcom:SingleHouseholdAgeIntervalsCountsStructure
+        a             qb:DataStructureDefinition ;
+        qb:component  lodcom:attributeOnDS , lodcom:countMeasure , lodcom:ageIntervalDim , lodcom:refAreaDim .
+
+lodcom:numberOfHouseholds
+        a                   qb:MeasureProperty , rdf:Property ;
+        rdfs:label          "the number of households"@en ;
+        rdfs:range          xsd:integer ;
+        rdfs:subPropertyOf  sdmx-measure:obsValue .
+
+lodcom:AgeInterval_60_69
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "69"^^xsd:int ;
+        lodcom:min                  "60"^^xsd:int .
+
+lodcom:SingleHouseholdAgeIntervalCount
+        a                           qb:DataSet ;
+        rdfs:label                  "1-Personen-Haushalte der Wohnberechtigten Bevölkerung 2014 nach Altersgruppen"@de , "Single Households in 2014 divided by age groups"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:SingleHouseholdAgeIntervalsCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:FourPersonsHouseholdCount
+        a                           qb:DataSet ;
+        rdfs:label                  "4-Personen-Haushalte der Wohnberechtigten Bevölkerung"@de , "Total Household Count of 4-Person Households"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:HouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:HouseholdsWithChildrenCount
+        a                           qb:DataSet ;
+        rdfs:label                  "Haushalte der Wohnberechtigten Bevölkerung mit Kindern"@de , "Households with children count"@en ;
+        dc:publisher                lodcom:CityAdministrationMuensterDPT ;
+        qb:structure                lodcom:HouseholdCountsStructure ;
+        sdmx-attribute:unitMeasure  lodcom:Household .
+
+lodcom:max  rdfs:domain     lodcom:AgeRange ;
+        rdfs:range          xsd:integer ;
+        rdfs:subPropertyOf  dbo:max .
+
+lodcom:SingleGenderHouseholdCountsStructure
+        a             qb:DataStructureDefinition ;
+        qb:component  lodcom:attributeOnObs , lodcom:countMeasure , lodcom:refAreaDim ;
+        qb:component  [ qb:dimension  sdmx-dimension:sex ] .
+
+lodcom:refAreaDim  qb:dimension  lodcom:refArea .
+
+lodcom:AgeInterval_10_19
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "19"^^xsd:int ;
+        lodcom:min                  "10"^^xsd:int .
+
+lodcom:attributeOnDS  qb:attribute  sdmx-attribute:unitMeasure ;
+        qb:componentAttachment  qb:DataSet ;
+        qb:componentRequired    true .
+
+lodcom:min  rdfs:domain     lodcom:AgeRange ;
+        rdfs:range          xsd:integer ;
+        rdfs:subPropertyOf  dbo:min .
+
+lodcom:AgeInterval_80
+        a                           lodcom:AgeRange ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:min                  "80"^^xsd:int .
