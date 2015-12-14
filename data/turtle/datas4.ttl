@@ -22,7 +22,7 @@ lodcom:single_gender_count_obs_65
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "955"^^xsd:int ;
-        lodcom:refArea              lodcom:Roxel ;
+        lodcom:refArea              lodcom:roxel ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_190
@@ -31,7 +31,7 @@ lodcom:single_gender_perc_obs_190
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "45.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Sprakel ;
+        lodcom:refArea                 lodcom:sprakel ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_23
@@ -40,7 +40,7 @@ lodcom:single_gender_count_obs_23
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "817"^^xsd:int ;
-        lodcom:refArea              lodcom:Schlachthof ;
+        lodcom:refArea              lodcom:schlachthof ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_219
@@ -49,7 +49,7 @@ lodcom:single_gender_count_obs_219
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "393"^^xsd:int ;
-        lodcom:refArea              lodcom:Amelsbueren ;
+        lodcom:refArea              lodcom:amelsbueren ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_148
@@ -58,7 +58,7 @@ lodcom:single_gender_perc_obs_148
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Geist ;
+        lodcom:refArea                 lodcom:geist ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_106
@@ -67,7 +67,7 @@ lodcom:single_gender_perc_obs_106
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "49.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hiltrup-West ;
+        lodcom:refArea                 lodcom:hiltrup-west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_169
@@ -76,7 +76,7 @@ lodcom:single_gender_count_obs_169
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "2780"^^xsd:int ;
-        lodcom:refArea              lodcom:Gievenbeck ;
+        lodcom:refArea              lodcom:gievenbeck ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_58
@@ -85,7 +85,7 @@ lodcom:single_gender_perc_obs_58
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Gievenbeck ;
+        lodcom:refArea                 lodcom:gievenbeck ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_127
@@ -94,7 +94,7 @@ lodcom:single_gender_count_obs_127
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "2557"^^xsd:int ;
-        lodcom:refArea              lodcom:Josef ;
+        lodcom:refArea              lodcom:josef ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_16
@@ -103,7 +103,7 @@ lodcom:single_gender_perc_obs_16
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.0"^^xsd:float ;
-        lodcom:refArea                 lodcom:Josef ;
+        lodcom:refArea                 lodcom:josef ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_206
@@ -112,7 +112,7 @@ lodcom:single_gender_perc_obs_206
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Angelmodde ;
+        lodcom:refArea                 lodcom:angelmodde ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_73
@@ -121,7 +121,7 @@ lodcom:single_gender_count_obs_73
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "606"^^xsd:int ;
-        lodcom:refArea              lodcom:Kinderhaus-Ost ;
+        lodcom:refArea              lodcom:kinderhaus-ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_198
@@ -130,7 +130,7 @@ lodcom:single_gender_perc_obs_198
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Handorf ;
+        lodcom:refArea                 lodcom:handorf ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_31
@@ -139,7 +139,7 @@ lodcom:single_gender_count_obs_31
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "10805"^^xsd:int ;
-        lodcom:refArea              lodcom:Innenstadtring ;
+        lodcom:refArea              lodcom:innenstadtring ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_156
@@ -148,7 +148,7 @@ lodcom:single_gender_perc_obs_156
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "50.5"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hafen ;
+        lodcom:refArea                 lodcom:hafen ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_114
@@ -157,7 +157,7 @@ lodcom:single_gender_perc_obs_114
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.0"^^xsd:float ;
-        lodcom:refArea                 lodcom:Aegidii ;
+        lodcom:refArea                 lodcom:aegidii ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_177
@@ -166,7 +166,7 @@ lodcom:single_gender_count_obs_177
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "933"^^xsd:int ;
-        lodcom:refArea              lodcom:Roxel ;
+        lodcom:refArea              lodcom:roxel ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_66
@@ -175,7 +175,7 @@ lodcom:single_gender_perc_obs_66
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "50.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Roxel ;
+        lodcom:refArea                 lodcom:roxel ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_135
@@ -184,7 +184,7 @@ lodcom:single_gender_count_obs_135
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1095"^^xsd:int ;
-        lodcom:refArea              lodcom:Schlachthof ;
+        lodcom:refArea              lodcom:schlachthof ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_24
@@ -193,7 +193,7 @@ lodcom:single_gender_perc_obs_24
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Schlachthof ;
+        lodcom:refArea                 lodcom:schlachthof ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_214
@@ -202,7 +202,7 @@ lodcom:single_gender_perc_obs_214
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "56.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hiltrup-Ost ;
+        lodcom:refArea                 lodcom:hiltrup-ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_81
@@ -211,7 +211,7 @@ lodcom:single_gender_count_obs_81
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1055"^^xsd:int ;
-        lodcom:refArea              lodcom:Mauritz-Ost ;
+        lodcom:refArea              lodcom:mauritz-ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_39
@@ -220,7 +220,7 @@ lodcom:single_gender_count_obs_39
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "785"^^xsd:int ;
-        lodcom:refArea              lodcom:Dueesberg ;
+        lodcom:refArea              lodcom:dueesberg ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_164
@@ -229,7 +229,7 @@ lodcom:single_gender_perc_obs_164
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Uppenberg ;
+        lodcom:refArea                 lodcom:uppenberg ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_122
@@ -238,7 +238,7 @@ lodcom:single_gender_perc_obs_122
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "62.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Martini ;
+        lodcom:refArea                 lodcom:martini ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_185
@@ -247,7 +247,7 @@ lodcom:single_gender_count_obs_185
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "724"^^xsd:int ;
-        lodcom:refArea              lodcom:Kinderhaus-Ost ;
+        lodcom:refArea              lodcom:kinderhaus-ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_5
@@ -256,7 +256,7 @@ lodcom:single_gender_count_obs_5
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "635"^^xsd:int ;
-        lodcom:refArea              lodcom:Dom ;
+        lodcom:refArea              lodcom:dom ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_74
@@ -265,7 +265,7 @@ lodcom:single_gender_perc_obs_74
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Kinderhaus-Ost ;
+        lodcom:refArea                 lodcom:kinderhaus-ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_143
@@ -274,7 +274,7 @@ lodcom:single_gender_count_obs_143
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "13709"^^xsd:int ;
-        lodcom:refArea              lodcom:Innenstadtring ;
+        lodcom:refArea              lodcom:innenstadtring ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_32
@@ -283,7 +283,7 @@ lodcom:single_gender_perc_obs_32
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Innenstadtring ;
+        lodcom:refArea                 lodcom:innenstadtring ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_222
@@ -292,7 +292,7 @@ lodcom:single_gender_perc_obs_222
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hiltrup ;
+        lodcom:refArea                 lodcom:hiltrup ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_101
@@ -301,7 +301,7 @@ lodcom:single_gender_count_obs_101
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "459"^^xsd:int ;
-        lodcom:refArea              lodcom:Hiltrup-Ost ;
+        lodcom:refArea              lodcom:hiltrup-ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_89
@@ -310,7 +310,7 @@ lodcom:single_gender_count_obs_89
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "562"^^xsd:int ;
-        lodcom:refArea              lodcom:Gremmendorf-West ;
+        lodcom:refArea              lodcom:gremmendorf-west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_47
@@ -319,7 +319,7 @@ lodcom:single_gender_count_obs_47
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1571"^^xsd:int ;
-        lodcom:refArea              lodcom:Mauritz-Mitte ;
+        lodcom:refArea              lodcom:mauritz-mitte ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_172
@@ -328,7 +328,7 @@ lodcom:single_gender_perc_obs_172
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Sentrup ;
+        lodcom:refArea                 lodcom:sentrup ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_201
@@ -337,7 +337,7 @@ lodcom:single_gender_count_obs_201
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "524"^^xsd:int ;
-        lodcom:refArea              lodcom:Gremmendorf-West ;
+        lodcom:refArea              lodcom:gremmendorf-west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_130
@@ -346,7 +346,7 @@ lodcom:single_gender_perc_obs_130
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "50.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Bahnhof ;
+        lodcom:refArea                 lodcom:bahnhof ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_193
@@ -355,7 +355,7 @@ lodcom:single_gender_count_obs_193
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1438"^^xsd:int ;
-        lodcom:refArea              lodcom:Mauritz-Ost ;
+        lodcom:refArea              lodcom:mauritz-ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_82
@@ -364,7 +364,7 @@ lodcom:single_gender_perc_obs_82
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mauritz-Ost ;
+        lodcom:refArea                 lodcom:mauritz-ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_151
@@ -373,7 +373,7 @@ lodcom:single_gender_count_obs_151
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "902"^^xsd:int ;
-        lodcom:refArea              lodcom:Dueesberg ;
+        lodcom:refArea              lodcom:dueesberg ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_40
@@ -382,7 +382,7 @@ lodcom:single_gender_perc_obs_40
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.5"^^xsd:float ;
-        lodcom:refArea                 lodcom:Dueesberg ;
+        lodcom:refArea                 lodcom:dueesberg ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_97
@@ -391,7 +391,7 @@ lodcom:single_gender_count_obs_97
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "2667"^^xsd:int ;
-        lodcom:refArea              lodcom:Suedost ;
+        lodcom:refArea              lodcom:suedost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_109
@@ -400,7 +400,7 @@ lodcom:single_gender_count_obs_109
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "3236"^^xsd:int ;
-        lodcom:refArea              lodcom:Hiltrup ;
+        lodcom:refArea              lodcom:hiltrup ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_55
@@ -409,7 +409,7 @@ lodcom:single_gender_count_obs_55
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "22684"^^xsd:int ;
-        lodcom:refArea              lodcom:Mitte ;
+        lodcom:refArea              lodcom:mitte ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_180
@@ -418,7 +418,7 @@ lodcom:single_gender_perc_obs_180
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "48.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Nienberge ;
+        lodcom:refArea                 lodcom:nienberge ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_13
@@ -427,7 +427,7 @@ lodcom:single_gender_count_obs_13
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "939"^^xsd:int ;
-        lodcom:refArea              lodcom:Pluggendorf ;
+        lodcom:refArea              lodcom:pluggendorf ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_209
@@ -436,7 +436,7 @@ lodcom:single_gender_count_obs_209
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "2901"^^xsd:int ;
-        lodcom:refArea              lodcom:Suedost ;
+        lodcom:refArea              lodcom:suedost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_138
@@ -445,7 +445,7 @@ lodcom:single_gender_perc_obs_138
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Kreuz ;
+        lodcom:refArea                 lodcom:kreuz ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_90
@@ -454,7 +454,7 @@ lodcom:single_gender_perc_obs_90
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "51.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Gremmendorf-West ;
+        lodcom:refArea                 lodcom:gremmendorf-west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_159
@@ -463,7 +463,7 @@ lodcom:single_gender_count_obs_159
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "2192"^^xsd:int ;
-        lodcom:refArea              lodcom:Mauritz-Mitte ;
+        lodcom:refArea              lodcom:mauritz-mitte ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_6
@@ -472,7 +472,7 @@ lodcom:single_gender_perc_obs_6
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "52.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Dom ;
+        lodcom:refArea                 lodcom:dom ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_48
@@ -481,7 +481,7 @@ lodcom:single_gender_perc_obs_48
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "41.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mauritz-Mitte ;
+        lodcom:refArea                 lodcom:mauritz-mitte ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_117
@@ -490,7 +490,7 @@ lodcom:single_gender_count_obs_117
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "568"^^xsd:int ;
-        lodcom:refArea              lodcom:Dom ;
+        lodcom:refArea              lodcom:dom ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_63
@@ -499,7 +499,7 @@ lodcom:single_gender_count_obs_63
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "338"^^xsd:int ;
-        lodcom:refArea              lodcom:Albachten ;
+        lodcom:refArea              lodcom:albachten ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_188
@@ -508,7 +508,7 @@ lodcom:single_gender_perc_obs_188
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Kinderhaus-West ;
+        lodcom:refArea                 lodcom:kinderhaus-west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_21
@@ -517,7 +517,7 @@ lodcom:single_gender_count_obs_21
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1220"^^xsd:int ;
-        lodcom:refArea              lodcom:Mauritz-West ;
+        lodcom:refArea              lodcom:mauritz-west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_217
@@ -526,7 +526,7 @@ lodcom:single_gender_count_obs_217
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "777"^^xsd:int ;
-        lodcom:refArea              lodcom:Hiltrup-West ;
+        lodcom:refArea              lodcom:hiltrup-west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_146
@@ -535,7 +535,7 @@ lodcom:single_gender_perc_obs_146
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "60.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Aaseestadt ;
+        lodcom:refArea                 lodcom:aaseestadt ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_98
@@ -544,7 +544,7 @@ lodcom:single_gender_perc_obs_98
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Suedost ;
+        lodcom:refArea                 lodcom:suedost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_104
@@ -553,7 +553,7 @@ lodcom:single_gender_perc_obs_104
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hiltrup-Mitte ;
+        lodcom:refArea                 lodcom:hiltrup-mitte ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_167
@@ -562,7 +562,7 @@ lodcom:single_gender_count_obs_167
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "28102"^^xsd:int ;
-        lodcom:refArea              lodcom:Mitte ;
+        lodcom:refArea              lodcom:mitte ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_56
@@ -571,7 +571,7 @@ lodcom:single_gender_perc_obs_56
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mitte ;
+        lodcom:refArea                 lodcom:mitte ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_125
@@ -580,7 +580,7 @@ lodcom:single_gender_count_obs_125
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1360"^^xsd:int ;
-        lodcom:refArea              lodcom:Pluggendorf ;
+        lodcom:refArea              lodcom:pluggendorf ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_14
@@ -589,7 +589,7 @@ lodcom:single_gender_perc_obs_14
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "40.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Pluggendorf ;
+        lodcom:refArea                 lodcom:pluggendorf ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_204
@@ -598,7 +598,7 @@ lodcom:single_gender_perc_obs_204
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Gremmendorf-Ost ;
+        lodcom:refArea                 lodcom:gremmendorf-ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_71
@@ -607,7 +607,7 @@ lodcom:single_gender_count_obs_71
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "969"^^xsd:int ;
-        lodcom:refArea              lodcom:Coerde ;
+        lodcom:refArea              lodcom:coerde ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_196
@@ -616,7 +616,7 @@ lodcom:single_gender_perc_obs_196
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Gelmer-Dyckburg ;
+        lodcom:refArea                 lodcom:gelmer-dyckburg ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_29
@@ -625,7 +625,7 @@ lodcom:single_gender_count_obs_29
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "347"^^xsd:int ;
-        lodcom:refArea              lodcom:Schloss ;
+        lodcom:refArea              lodcom:schloss ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_154
@@ -634,7 +634,7 @@ lodcom:single_gender_perc_obs_154
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mitte-Sued ;
+        lodcom:refArea                 lodcom:mitte-sued ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_112
@@ -643,7 +643,7 @@ lodcom:single_gender_perc_obs_112
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.5"^^xsd:float ;
-        lodcom:refArea                 lodcom:Muenster ;
+        lodcom:refArea                 lodcom:muenster ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_175
@@ -652,7 +652,7 @@ lodcom:single_gender_count_obs_175
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "418"^^xsd:int ;
-        lodcom:refArea              lodcom:Albachten ;
+        lodcom:refArea              lodcom:albachten ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_64
@@ -661,7 +661,7 @@ lodcom:single_gender_perc_obs_64
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Albachten ;
+        lodcom:refArea                 lodcom:albachten ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_133
@@ -670,7 +670,7 @@ lodcom:single_gender_count_obs_133
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1746"^^xsd:int ;
-        lodcom:refArea              lodcom:Mauritz-West ;
+        lodcom:refArea              lodcom:mauritz-west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_22
@@ -679,7 +679,7 @@ lodcom:single_gender_perc_obs_22
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "41.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mauritz-West ;
+        lodcom:refArea                 lodcom:mauritz-west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_212
@@ -688,7 +688,7 @@ lodcom:single_gender_perc_obs_212
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "48.5"^^xsd:float ;
-        lodcom:refArea                 lodcom:Berg_Fidel ;
+        lodcom:refArea                 lodcom:berg_fidel ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_79
@@ -697,7 +697,7 @@ lodcom:single_gender_count_obs_79
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "2742"^^xsd:int ;
-        lodcom:refArea              lodcom:Nord ;
+        lodcom:refArea              lodcom:nord ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_37
@@ -706,7 +706,7 @@ lodcom:single_gender_count_obs_37
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1615"^^xsd:int ;
-        lodcom:refArea              lodcom:Schuetzenhof ;
+        lodcom:refArea              lodcom:schuetzenhof ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_162
@@ -715,7 +715,7 @@ lodcom:single_gender_perc_obs_162
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Rumphorst ;
+        lodcom:refArea                 lodcom:rumphorst ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_120
@@ -724,7 +724,7 @@ lodcom:single_gender_perc_obs_120
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "50.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Buddenturm ;
+        lodcom:refArea                 lodcom:buddenturm ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_183
@@ -733,7 +733,7 @@ lodcom:single_gender_count_obs_183
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1025"^^xsd:int ;
-        lodcom:refArea              lodcom:Coerde ;
+        lodcom:refArea              lodcom:coerde ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_3
@@ -742,7 +742,7 @@ lodcom:single_gender_count_obs_3
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "343"^^xsd:int ;
-        lodcom:refArea              lodcom:Ueberwasser ;
+        lodcom:refArea              lodcom:ueberwasser ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_72
@@ -751,7 +751,7 @@ lodcom:single_gender_perc_obs_72
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "48.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Coerde ;
+        lodcom:refArea                 lodcom:coerde ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_141
@@ -760,7 +760,7 @@ lodcom:single_gender_count_obs_141
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "473"^^xsd:int ;
-        lodcom:refArea              lodcom:Schloss ;
+        lodcom:refArea              lodcom:schloss ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_30
@@ -769,7 +769,7 @@ lodcom:single_gender_perc_obs_30
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Schloss ;
+        lodcom:refArea                 lodcom:schloss ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_220
@@ -778,7 +778,7 @@ lodcom:single_gender_perc_obs_220
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Amelsbueren ;
+        lodcom:refArea                 lodcom:amelsbueren ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_87
@@ -787,7 +787,7 @@ lodcom:single_gender_count_obs_87
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1849"^^xsd:int ;
-        lodcom:refArea              lodcom:Ost ;
+        lodcom:refArea              lodcom:ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_45
@@ -796,7 +796,7 @@ lodcom:single_gender_count_obs_45
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "906"^^xsd:int ;
-        lodcom:refArea              lodcom:Herz-Jesu ;
+        lodcom:refArea              lodcom:herz-jesu ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_170
@@ -805,7 +805,7 @@ lodcom:single_gender_perc_obs_170
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Gievenbeck ;
+        lodcom:refArea                 lodcom:gievenbeck ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_191
@@ -814,7 +814,7 @@ lodcom:single_gender_count_obs_191
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "3004"^^xsd:int ;
-        lodcom:refArea              lodcom:Nord ;
+        lodcom:refArea              lodcom:nord ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_128
@@ -823,7 +823,7 @@ lodcom:single_gender_perc_obs_128
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "58.0"^^xsd:float ;
-        lodcom:refArea                 lodcom:Josef ;
+        lodcom:refArea                 lodcom:josef ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_80
@@ -832,7 +832,7 @@ lodcom:single_gender_perc_obs_80
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Nord ;
+        lodcom:refArea                 lodcom:nord ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_149
@@ -841,7 +841,7 @@ lodcom:single_gender_count_obs_149
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1926"^^xsd:int ;
-        lodcom:refArea              lodcom:Schuetzenhof ;
+        lodcom:refArea              lodcom:schuetzenhof ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_38
@@ -850,7 +850,7 @@ lodcom:single_gender_perc_obs_38
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Schuetzenhof ;
+        lodcom:refArea                 lodcom:schuetzenhof ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_95
@@ -859,7 +859,7 @@ lodcom:single_gender_count_obs_95
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "721"^^xsd:int ;
-        lodcom:refArea              lodcom:Wolbeck ;
+        lodcom:refArea              lodcom:wolbeck ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_107
@@ -868,7 +868,7 @@ lodcom:single_gender_count_obs_107
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "332"^^xsd:int ;
-        lodcom:refArea              lodcom:Amelsbueren ;
+        lodcom:refArea              lodcom:amelsbueren ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_53
@@ -877,7 +877,7 @@ lodcom:single_gender_count_obs_53
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "5147"^^xsd:int ;
-        lodcom:refArea              lodcom:Mitte-Nordost ;
+        lodcom:refArea              lodcom:mitte-nordost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_178
@@ -886,7 +886,7 @@ lodcom:single_gender_perc_obs_178
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "49.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Roxel ;
+        lodcom:refArea                 lodcom:roxel ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_11
@@ -895,7 +895,7 @@ lodcom:single_gender_count_obs_11
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "2175"^^xsd:int ;
-        lodcom:refArea              lodcom:Altstadt ;
+        lodcom:refArea              lodcom:altstadt ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_207
@@ -904,7 +904,7 @@ lodcom:single_gender_count_obs_207
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "840"^^xsd:int ;
-        lodcom:refArea              lodcom:Wolbeck ;
+        lodcom:refArea              lodcom:wolbeck ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_136
@@ -913,7 +913,7 @@ lodcom:single_gender_perc_obs_136
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Schlachthof ;
+        lodcom:refArea                 lodcom:schlachthof ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_199
@@ -922,7 +922,7 @@ lodcom:single_gender_count_obs_199
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "2439"^^xsd:int ;
-        lodcom:refArea              lodcom:Ost ;
+        lodcom:refArea              lodcom:ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_88
@@ -931,7 +931,7 @@ lodcom:single_gender_perc_obs_88
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "43.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Ost ;
+        lodcom:refArea                 lodcom:ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_157
@@ -940,7 +940,7 @@ lodcom:single_gender_count_obs_157
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1091"^^xsd:int ;
-        lodcom:refArea              lodcom:Herz-Jesu ;
+        lodcom:refArea              lodcom:herz-jesu ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_4
@@ -949,7 +949,7 @@ lodcom:single_gender_perc_obs_4
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.0"^^xsd:float ;
-        lodcom:refArea                 lodcom:Ueberwasser ;
+        lodcom:refArea                 lodcom:ueberwasser ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_46
@@ -958,7 +958,7 @@ lodcom:single_gender_perc_obs_46
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Herz-Jesu ;
+        lodcom:refArea                 lodcom:herz-jesu ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_115
@@ -967,7 +967,7 @@ lodcom:single_gender_count_obs_115
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "436"^^xsd:int ;
-        lodcom:refArea              lodcom:Ueberwasser ;
+        lodcom:refArea              lodcom:ueberwasser ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_61
@@ -976,7 +976,7 @@ lodcom:single_gender_count_obs_61
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "955"^^xsd:int ;
-        lodcom:refArea              lodcom:Mecklenbeck ;
+        lodcom:refArea              lodcom:mecklenbeck ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_186
@@ -985,7 +985,7 @@ lodcom:single_gender_perc_obs_186
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Kinderhaus-Ost ;
+        lodcom:refArea                 lodcom:kinderhaus-ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_215
@@ -994,7 +994,7 @@ lodcom:single_gender_count_obs_215
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1393"^^xsd:int ;
-        lodcom:refArea              lodcom:Hiltrup-Mitte ;
+        lodcom:refArea              lodcom:hiltrup-mitte ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_19
@@ -1003,7 +1003,7 @@ lodcom:single_gender_count_obs_19
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1774"^^xsd:int ;
-        lodcom:refArea              lodcom:Hansaplatz ;
+        lodcom:refArea              lodcom:hansaplatz ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_144
@@ -1012,7 +1012,7 @@ lodcom:single_gender_perc_obs_144
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Innenstadtring ;
+        lodcom:refArea                 lodcom:innenstadtring ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_96
@@ -1021,7 +1021,7 @@ lodcom:single_gender_perc_obs_96
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Wolbeck ;
+        lodcom:refArea                 lodcom:wolbeck ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_102
@@ -1030,7 +1030,7 @@ lodcom:single_gender_perc_obs_102
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "43.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hiltrup-Ost ;
+        lodcom:refArea                 lodcom:hiltrup-ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_165
@@ -1039,7 +1039,7 @@ lodcom:single_gender_count_obs_165
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "6439"^^xsd:int ;
-        lodcom:refArea              lodcom:Mitte-Nordost ;
+        lodcom:refArea              lodcom:mitte-nordost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_54
@@ -1048,7 +1048,7 @@ lodcom:single_gender_perc_obs_54
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mitte-Nordost ;
+        lodcom:refArea                 lodcom:mitte-nordost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_123
@@ -1057,7 +1057,7 @@ lodcom:single_gender_count_obs_123
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "2432"^^xsd:int ;
-        lodcom:refArea              lodcom:Altstadt ;
+        lodcom:refArea              lodcom:altstadt ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_12
@@ -1066,7 +1066,7 @@ lodcom:single_gender_perc_obs_12
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Altstadt ;
+        lodcom:refArea                 lodcom:altstadt ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_202
@@ -1075,7 +1075,7 @@ lodcom:single_gender_perc_obs_202
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "48.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Gremmendorf-West ;
+        lodcom:refArea                 lodcom:gremmendorf-west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_69
@@ -1084,7 +1084,7 @@ lodcom:single_gender_count_obs_69
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "6682"^^xsd:int ;
-        lodcom:refArea              lodcom:West ;
+        lodcom:refArea              lodcom:west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_194
@@ -1093,7 +1093,7 @@ lodcom:single_gender_perc_obs_194
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mauritz-Ost ;
+        lodcom:refArea                 lodcom:mauritz-ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_223
@@ -1102,7 +1102,7 @@ lodcom:single_gender_count_obs_223
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "47721"^^xsd:int ;
-        lodcom:refArea              lodcom:Muenster ;
+        lodcom:refArea              lodcom:muenster ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_27
@@ -1111,7 +1111,7 @@ lodcom:single_gender_count_obs_27
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1010"^^xsd:int ;
-        lodcom:refArea              lodcom:Neutor ;
+        lodcom:refArea              lodcom:neutor ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_152
@@ -1120,7 +1120,7 @@ lodcom:single_gender_perc_obs_152
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.5"^^xsd:float ;
-        lodcom:refArea                 lodcom:Dueesberg ;
+        lodcom:refArea                 lodcom:dueesberg ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_110
@@ -1129,7 +1129,7 @@ lodcom:single_gender_perc_obs_110
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hiltrup ;
+        lodcom:refArea                 lodcom:hiltrup ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_173
@@ -1138,7 +1138,7 @@ lodcom:single_gender_count_obs_173
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1073"^^xsd:int ;
-        lodcom:refArea              lodcom:Mecklenbeck ;
+        lodcom:refArea              lodcom:mecklenbeck ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_62
@@ -1147,7 +1147,7 @@ lodcom:single_gender_perc_obs_62
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mecklenbeck ;
+        lodcom:refArea                 lodcom:mecklenbeck ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_131
@@ -1156,7 +1156,7 @@ lodcom:single_gender_count_obs_131
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1983"^^xsd:int ;
-        lodcom:refArea              lodcom:Hansaplatz ;
+        lodcom:refArea              lodcom:hansaplatz ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_20
@@ -1165,7 +1165,7 @@ lodcom:single_gender_perc_obs_20
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hansaplatz ;
+        lodcom:refArea                 lodcom:hansaplatz ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_210
@@ -1174,7 +1174,7 @@ lodcom:single_gender_perc_obs_210
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Suedost ;
+        lodcom:refArea                 lodcom:suedost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_77
@@ -1183,7 +1183,7 @@ lodcom:single_gender_count_obs_77
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "255"^^xsd:int ;
-        lodcom:refArea              lodcom:Sprakel ;
+        lodcom:refArea              lodcom:sprakel ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_35
@@ -1192,7 +1192,7 @@ lodcom:single_gender_count_obs_35
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1509"^^xsd:int ;
-        lodcom:refArea              lodcom:Geist ;
+        lodcom:refArea              lodcom:geist ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_160
@@ -1201,7 +1201,7 @@ lodcom:single_gender_perc_obs_160
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "58.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mauritz-Mitte ;
+        lodcom:refArea                 lodcom:mauritz-mitte ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_181
@@ -1210,7 +1210,7 @@ lodcom:single_gender_count_obs_181
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "7612"^^xsd:int ;
-        lodcom:refArea              lodcom:West ;
+        lodcom:refArea              lodcom:west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_118
@@ -1219,7 +1219,7 @@ lodcom:single_gender_perc_obs_118
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "47.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Dom ;
+        lodcom:refArea                 lodcom:dom ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_1
@@ -1228,7 +1228,7 @@ lodcom:single_gender_count_obs_1
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "317"^^xsd:int ;
-        lodcom:refArea              lodcom:Aegidii ;
+        lodcom:refArea              lodcom:aegidii ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_70
@@ -1237,7 +1237,7 @@ lodcom:single_gender_perc_obs_70
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:West ;
+        lodcom:refArea                 lodcom:west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_139
@@ -1246,7 +1246,7 @@ lodcom:single_gender_count_obs_139
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1081"^^xsd:int ;
-        lodcom:refArea              lodcom:Neutor ;
+        lodcom:refArea              lodcom:neutor ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_28
@@ -1255,7 +1255,7 @@ lodcom:single_gender_perc_obs_28
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "48.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Neutor ;
+        lodcom:refArea                 lodcom:neutor ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_218
@@ -1264,7 +1264,7 @@ lodcom:single_gender_perc_obs_218
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "50.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hiltrup-West ;
+        lodcom:refArea                 lodcom:hiltrup-west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_85
@@ -1273,7 +1273,7 @@ lodcom:single_gender_count_obs_85
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "507"^^xsd:int ;
-        lodcom:refArea              lodcom:Handorf ;
+        lodcom:refArea              lodcom:handorf ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_43
@@ -1282,7 +1282,7 @@ lodcom:single_gender_count_obs_43
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "291"^^xsd:int ;
-        lodcom:refArea              lodcom:Hafen ;
+        lodcom:refArea              lodcom:hafen ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_168
@@ -1291,7 +1291,7 @@ lodcom:single_gender_perc_obs_168
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mitte ;
+        lodcom:refArea                 lodcom:mitte ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_126
@@ -1300,7 +1300,7 @@ lodcom:single_gender_perc_obs_126
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "59.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Pluggendorf ;
+        lodcom:refArea                 lodcom:pluggendorf ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_189
@@ -1309,7 +1309,7 @@ lodcom:single_gender_count_obs_189
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "216"^^xsd:int ;
-        lodcom:refArea              lodcom:Sprakel ;
+        lodcom:refArea              lodcom:sprakel ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_9
@@ -1318,7 +1318,7 @@ lodcom:single_gender_count_obs_9
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "291"^^xsd:int ;
-        lodcom:refArea              lodcom:Martini ;
+        lodcom:refArea              lodcom:martini ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_78
@@ -1327,7 +1327,7 @@ lodcom:single_gender_perc_obs_78
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "54.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Sprakel ;
+        lodcom:refArea                 lodcom:sprakel ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_147
@@ -1336,7 +1336,7 @@ lodcom:single_gender_count_obs_147
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1712"^^xsd:int ;
-        lodcom:refArea              lodcom:Geist ;
+        lodcom:refArea              lodcom:geist ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_36
@@ -1345,7 +1345,7 @@ lodcom:single_gender_perc_obs_36
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Geist ;
+        lodcom:refArea                 lodcom:geist ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_105
@@ -1354,7 +1354,7 @@ lodcom:single_gender_count_obs_105
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "772"^^xsd:int ;
-        lodcom:refArea              lodcom:Hiltrup-West ;
+        lodcom:refArea              lodcom:hiltrup-west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_93
@@ -1363,7 +1363,7 @@ lodcom:single_gender_count_obs_93
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "786"^^xsd:int ;
-        lodcom:refArea              lodcom:Angelmodde ;
+        lodcom:refArea              lodcom:angelmodde ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_51
@@ -1372,7 +1372,7 @@ lodcom:single_gender_count_obs_51
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1495"^^xsd:int ;
-        lodcom:refArea              lodcom:Uppenberg ;
+        lodcom:refArea              lodcom:uppenberg ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_176
@@ -1381,7 +1381,7 @@ lodcom:single_gender_perc_obs_176
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Albachten ;
+        lodcom:refArea                 lodcom:albachten ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_205
@@ -1390,7 +1390,7 @@ lodcom:single_gender_count_obs_205
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "866"^^xsd:int ;
-        lodcom:refArea              lodcom:Angelmodde ;
+        lodcom:refArea              lodcom:angelmodde ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_134
@@ -1399,7 +1399,7 @@ lodcom:single_gender_perc_obs_134
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "58.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mauritz-West ;
+        lodcom:refArea                 lodcom:mauritz-west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_197
@@ -1408,7 +1408,7 @@ lodcom:single_gender_count_obs_197
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "682"^^xsd:int ;
-        lodcom:refArea              lodcom:Handorf ;
+        lodcom:refArea              lodcom:handorf ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_86
@@ -1417,7 +1417,7 @@ lodcom:single_gender_perc_obs_86
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Handorf ;
+        lodcom:refArea                 lodcom:handorf ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_155
@@ -1426,7 +1426,7 @@ lodcom:single_gender_count_obs_155
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "297"^^xsd:int ;
-        lodcom:refArea              lodcom:Hafen ;
+        lodcom:refArea              lodcom:hafen ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_2
@@ -1435,7 +1435,7 @@ lodcom:single_gender_perc_obs_2
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.0"^^xsd:float ;
-        lodcom:refArea                 lodcom:Aegidii ;
+        lodcom:refArea                 lodcom:aegidii ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_44
@@ -1444,7 +1444,7 @@ lodcom:single_gender_perc_obs_44
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "49.5"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hafen ;
+        lodcom:refArea                 lodcom:hafen ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_113
@@ -1453,7 +1453,7 @@ lodcom:single_gender_count_obs_113
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "357"^^xsd:int ;
-        lodcom:refArea              lodcom:Aegidii ;
+        lodcom:refArea              lodcom:aegidii ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_59
@@ -1462,7 +1462,7 @@ lodcom:single_gender_count_obs_59
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1223"^^xsd:int ;
-        lodcom:refArea              lodcom:Sentrup ;
+        lodcom:refArea              lodcom:sentrup ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_184
@@ -1471,7 +1471,7 @@ lodcom:single_gender_perc_obs_184
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "51.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Coerde ;
+        lodcom:refArea                 lodcom:coerde ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_213
@@ -1480,7 +1480,7 @@ lodcom:single_gender_count_obs_213
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "586"^^xsd:int ;
-        lodcom:refArea              lodcom:Hiltrup-Ost ;
+        lodcom:refArea              lodcom:hiltrup-ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_17
@@ -1489,7 +1489,7 @@ lodcom:single_gender_count_obs_17
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "374"^^xsd:int ;
-        lodcom:refArea              lodcom:Bahnhof ;
+        lodcom:refArea              lodcom:bahnhof ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_142
@@ -1498,7 +1498,7 @@ lodcom:single_gender_perc_obs_142
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Schloss ;
+        lodcom:refArea                 lodcom:schloss ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_94
@@ -1507,7 +1507,7 @@ lodcom:single_gender_perc_obs_94
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Angelmodde ;
+        lodcom:refArea                 lodcom:angelmodde ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_100
@@ -1516,7 +1516,7 @@ lodcom:single_gender_perc_obs_100
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "51.5"^^xsd:float ;
-        lodcom:refArea                 lodcom:Berg_Fidel ;
+        lodcom:refArea                 lodcom:berg_fidel ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_163
@@ -1525,7 +1525,7 @@ lodcom:single_gender_count_obs_163
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1676"^^xsd:int ;
-        lodcom:refArea              lodcom:Uppenberg ;
+        lodcom:refArea              lodcom:uppenberg ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_52
@@ -1534,7 +1534,7 @@ lodcom:single_gender_perc_obs_52
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Uppenberg ;
+        lodcom:refArea                 lodcom:uppenberg ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_121
@@ -1543,7 +1543,7 @@ lodcom:single_gender_count_obs_121
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "476"^^xsd:int ;
-        lodcom:refArea              lodcom:Martini ;
+        lodcom:refArea              lodcom:martini ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_10
@@ -1552,7 +1552,7 @@ lodcom:single_gender_perc_obs_10
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "37.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Martini ;
+        lodcom:refArea                 lodcom:martini ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_200
@@ -1561,7 +1561,7 @@ lodcom:single_gender_perc_obs_200
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "56.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Ost ;
+        lodcom:refArea                 lodcom:ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_67
@@ -1570,7 +1570,7 @@ lodcom:single_gender_count_obs_67
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "817"^^xsd:int ;
-        lodcom:refArea              lodcom:Nienberge ;
+        lodcom:refArea              lodcom:nienberge ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_192
@@ -1579,7 +1579,7 @@ lodcom:single_gender_perc_obs_192
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Nord ;
+        lodcom:refArea                 lodcom:nord ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_221
@@ -1588,7 +1588,7 @@ lodcom:single_gender_count_obs_221
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "3663"^^xsd:int ;
-        lodcom:refArea              lodcom:Hiltrup ;
+        lodcom:refArea              lodcom:hiltrup ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_25
@@ -1597,7 +1597,7 @@ lodcom:single_gender_count_obs_25
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "2470"^^xsd:int ;
-        lodcom:refArea              lodcom:Kreuz ;
+        lodcom:refArea              lodcom:kreuz ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_150
@@ -1606,7 +1606,7 @@ lodcom:single_gender_perc_obs_150
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Schuetzenhof ;
+        lodcom:refArea                 lodcom:schuetzenhof ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_171
@@ -1615,7 +1615,7 @@ lodcom:single_gender_count_obs_171
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1641"^^xsd:int ;
-        lodcom:refArea              lodcom:Sentrup ;
+        lodcom:refArea              lodcom:sentrup ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_108
@@ -1624,7 +1624,7 @@ lodcom:single_gender_perc_obs_108
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Amelsbueren ;
+        lodcom:refArea                 lodcom:amelsbueren ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_60
@@ -1633,7 +1633,7 @@ lodcom:single_gender_perc_obs_60
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Sentrup ;
+        lodcom:refArea                 lodcom:sentrup ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_129
@@ -1642,7 +1642,7 @@ lodcom:single_gender_count_obs_129
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "376"^^xsd:int ;
-        lodcom:refArea              lodcom:Bahnhof ;
+        lodcom:refArea              lodcom:bahnhof ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_18
@@ -1651,7 +1651,7 @@ lodcom:single_gender_perc_obs_18
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "49.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Bahnhof ;
+        lodcom:refArea                 lodcom:bahnhof ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_208
@@ -1660,7 +1660,7 @@ lodcom:single_gender_perc_obs_208
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Wolbeck ;
+        lodcom:refArea                 lodcom:wolbeck ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_75
@@ -1669,7 +1669,7 @@ lodcom:single_gender_count_obs_75
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "912"^^xsd:int ;
-        lodcom:refArea              lodcom:Kinderhaus-West ;
+        lodcom:refArea              lodcom:kinderhaus-west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_33
@@ -1678,7 +1678,7 @@ lodcom:single_gender_count_obs_33
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "648"^^xsd:int ;
-        lodcom:refArea              lodcom:Aaseestadt ;
+        lodcom:refArea              lodcom:aaseestadt ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_158
@@ -1687,7 +1687,7 @@ lodcom:single_gender_perc_obs_158
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Herz-Jesu ;
+        lodcom:refArea                 lodcom:herz-jesu ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_116
@@ -1696,7 +1696,7 @@ lodcom:single_gender_perc_obs_116
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "56.0"^^xsd:float ;
-        lodcom:refArea                 lodcom:Ueberwasser ;
+        lodcom:refArea                 lodcom:ueberwasser ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_179
@@ -1705,7 +1705,7 @@ lodcom:single_gender_count_obs_179
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "767"^^xsd:int ;
-        lodcom:refArea              lodcom:Nienberge ;
+        lodcom:refArea              lodcom:nienberge ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_68
@@ -1714,7 +1714,7 @@ lodcom:single_gender_perc_obs_68
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "51.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Nienberge ;
+        lodcom:refArea                 lodcom:nienberge ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_137
@@ -1723,7 +1723,7 @@ lodcom:single_gender_count_obs_137
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "3038"^^xsd:int ;
-        lodcom:refArea              lodcom:Kreuz ;
+        lodcom:refArea              lodcom:kreuz ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_26
@@ -1732,7 +1732,7 @@ lodcom:single_gender_perc_obs_26
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Kreuz ;
+        lodcom:refArea                 lodcom:kreuz ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_216
@@ -1741,7 +1741,7 @@ lodcom:single_gender_perc_obs_216
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hiltrup-Mitte ;
+        lodcom:refArea                 lodcom:hiltrup-mitte ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_83
@@ -1750,7 +1750,7 @@ lodcom:single_gender_count_obs_83
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "287"^^xsd:int ;
-        lodcom:refArea              lodcom:Gelmer-Dyckburg ;
+        lodcom:refArea              lodcom:gelmer-dyckburg ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_41
@@ -1759,7 +1759,7 @@ lodcom:single_gender_count_obs_41
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "4557"^^xsd:int ;
-        lodcom:refArea              lodcom:Mitte-Sued ;
+        lodcom:refArea              lodcom:mitte-sued ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_166
@@ -1768,7 +1768,7 @@ lodcom:single_gender_perc_obs_166
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.6"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mitte-Nordost ;
+        lodcom:refArea                 lodcom:mitte-nordost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_124
@@ -1777,7 +1777,7 @@ lodcom:single_gender_perc_obs_124
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Altstadt ;
+        lodcom:refArea                 lodcom:altstadt ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_187
@@ -1786,7 +1786,7 @@ lodcom:single_gender_count_obs_187
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1039"^^xsd:int ;
-        lodcom:refArea              lodcom:Kinderhaus-West ;
+        lodcom:refArea              lodcom:kinderhaus-west ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_7
@@ -1795,7 +1795,7 @@ lodcom:single_gender_count_obs_7
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "589"^^xsd:int ;
-        lodcom:refArea              lodcom:Buddenturm ;
+        lodcom:refArea              lodcom:buddenturm ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_76
@@ -1804,7 +1804,7 @@ lodcom:single_gender_perc_obs_76
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Kinderhaus-West ;
+        lodcom:refArea                 lodcom:kinderhaus-west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_145
@@ -1813,7 +1813,7 @@ lodcom:single_gender_count_obs_145
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "982"^^xsd:int ;
-        lodcom:refArea              lodcom:Aaseestadt ;
+        lodcom:refArea              lodcom:aaseestadt ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_34
@@ -1822,7 +1822,7 @@ lodcom:single_gender_perc_obs_34
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "39.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Aaseestadt ;
+        lodcom:refArea                 lodcom:aaseestadt ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_224
@@ -1831,7 +1831,7 @@ lodcom:single_gender_perc_obs_224
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.5"^^xsd:float ;
-        lodcom:refArea                 lodcom:Muenster ;
+        lodcom:refArea                 lodcom:muenster ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_91
@@ -1840,7 +1840,7 @@ lodcom:single_gender_count_obs_91
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "598"^^xsd:int ;
-        lodcom:refArea              lodcom:Gremmendorf-Ost ;
+        lodcom:refArea              lodcom:gremmendorf-ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_103
@@ -1849,7 +1849,7 @@ lodcom:single_gender_count_obs_103
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1128"^^xsd:int ;
-        lodcom:refArea              lodcom:Hiltrup-Mitte ;
+        lodcom:refArea              lodcom:hiltrup-mitte ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_49
@@ -1858,7 +1858,7 @@ lodcom:single_gender_count_obs_49
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "884"^^xsd:int ;
-        lodcom:refArea              lodcom:Rumphorst ;
+        lodcom:refArea              lodcom:rumphorst ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_174
@@ -1867,7 +1867,7 @@ lodcom:single_gender_perc_obs_174
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.9"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mecklenbeck ;
+        lodcom:refArea                 lodcom:mecklenbeck ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_203
@@ -1876,7 +1876,7 @@ lodcom:single_gender_count_obs_203
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "671"^^xsd:int ;
-        lodcom:refArea              lodcom:Gremmendorf-Ost ;
+        lodcom:refArea              lodcom:gremmendorf-ost ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_132
@@ -1885,7 +1885,7 @@ lodcom:single_gender_perc_obs_132
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Hansaplatz ;
+        lodcom:refArea                 lodcom:hansaplatz ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_195
@@ -1894,7 +1894,7 @@ lodcom:single_gender_count_obs_195
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "319"^^xsd:int ;
-        lodcom:refArea              lodcom:Gelmer-Dyckburg ;
+        lodcom:refArea              lodcom:gelmer-dyckburg ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_84
@@ -1903,7 +1903,7 @@ lodcom:single_gender_perc_obs_84
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.4"^^xsd:float ;
-        lodcom:refArea                 lodcom:Gelmer-Dyckburg ;
+        lodcom:refArea                 lodcom:gelmer-dyckburg ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_153
@@ -1912,7 +1912,7 @@ lodcom:single_gender_count_obs_153
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "5522"^^xsd:int ;
-        lodcom:refArea              lodcom:Mitte-Sued ;
+        lodcom:refArea              lodcom:mitte-sued ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_42
@@ -1921,7 +1921,7 @@ lodcom:single_gender_perc_obs_42
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.2"^^xsd:float ;
-        lodcom:refArea                 lodcom:Mitte-Sued ;
+        lodcom:refArea                 lodcom:mitte-sued ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_111
@@ -1930,7 +1930,7 @@ lodcom:single_gender_count_obs_111
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "39860"^^xsd:int ;
-        lodcom:refArea              lodcom:Muenster ;
+        lodcom:refArea              lodcom:muenster ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_99
@@ -1939,7 +1939,7 @@ lodcom:single_gender_count_obs_99
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "545"^^xsd:int ;
-        lodcom:refArea              lodcom:Berg_Fidel ;
+        lodcom:refArea              lodcom:berg_fidel ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_57
@@ -1948,7 +1948,7 @@ lodcom:single_gender_count_obs_57
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "2394"^^xsd:int ;
-        lodcom:refArea              lodcom:Gievenbeck ;
+        lodcom:refArea              lodcom:gievenbeck ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_182
@@ -1957,7 +1957,7 @@ lodcom:single_gender_perc_obs_182
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.3"^^xsd:float ;
-        lodcom:refArea                 lodcom:West ;
+        lodcom:refArea                 lodcom:west ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_211
@@ -1966,7 +1966,7 @@ lodcom:single_gender_count_obs_211
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "514"^^xsd:int ;
-        lodcom:refArea              lodcom:Berg_Fidel ;
+        lodcom:refArea              lodcom:berg_fidel ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_15
@@ -1975,7 +1975,7 @@ lodcom:single_gender_count_obs_15
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-M ;
         lodcom:numberOfHouseholds   "1854"^^xsd:int ;
-        lodcom:refArea              lodcom:Josef ;
+        lodcom:refArea              lodcom:josef ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_140
@@ -1984,7 +1984,7 @@ lodcom:single_gender_perc_obs_140
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "51.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Neutor ;
+        lodcom:refArea                 lodcom:neutor ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_92
@@ -1993,7 +1993,7 @@ lodcom:single_gender_perc_obs_92
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.1"^^xsd:float ;
-        lodcom:refArea                 lodcom:Gremmendorf-Ost ;
+        lodcom:refArea                 lodcom:gremmendorf-ost ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_161
@@ -2002,7 +2002,7 @@ lodcom:single_gender_count_obs_161
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "1183"^^xsd:int ;
-        lodcom:refArea              lodcom:Rumphorst ;
+        lodcom:refArea              lodcom:rumphorst ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_8
@@ -2011,7 +2011,7 @@ lodcom:single_gender_perc_obs_8
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "49.7"^^xsd:float ;
-        lodcom:refArea                 lodcom:Buddenturm ;
+        lodcom:refArea                 lodcom:buddenturm ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_perc_obs_50
@@ -2020,7 +2020,7 @@ lodcom:single_gender_perc_obs_50
         sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.8"^^xsd:float ;
-        lodcom:refArea                 lodcom:Rumphorst ;
+        lodcom:refArea                 lodcom:rumphorst ;
         lodcom:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .
 
 lodcom:single_gender_count_obs_119
@@ -2029,5 +2029,5 @@ lodcom:single_gender_count_obs_119
         sdmx-attribute:unitMeasure  lodcom:Household ;
         sdmx-dimension:sex          sdmx-code:sex-F ;
         lodcom:numberOfHouseholds   "595"^^xsd:int ;
-        lodcom:refArea              lodcom:Buddenturm ;
+        lodcom:refArea              lodcom:buddenturm ;
         lodcom:refPeriod            <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> .

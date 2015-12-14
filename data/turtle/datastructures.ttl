@@ -27,13 +27,6 @@ lodcom:PercentHouseholds
         a           rdfs:Class ;
         rdfs:label  "Prozent an Haushalten"@de , "percent on households"@en .
 
-lodcom:AgeRange_10_19
-        a                           lodcom:AgeRange ;
-        rdfs:comment                "The age range for people being 10 to 19 years old." ;
-        sdmx-attribute:unitMeasure  dbo:Year ;
-        lodcom:max                  "19"^^xsd:int ;
-        lodcom:min                  "10"^^xsd:int .
-
 lodcom:AgeRange_50_59
         a                           lodcom:AgeRange ;
         rdfs:comment                "The age range for people being 50 to 59 years old." ;
@@ -97,6 +90,12 @@ lodcom:AgeRange_70_79
         sdmx-attribute:unitMeasure  dbo:Year ;
         lodcom:max                  "79"^^xsd:int ;
         lodcom:min                  "70"^^xsd:int .
+
+lodcom:AgeRange_0_19  a             lodcom:AgeRange ;
+        rdfs:comment                "The age range for people being 0 to 19 years old." ;
+        sdmx-attribute:unitMeasure  dbo:Year ;
+        lodcom:max                  "19"^^xsd:int ;
+        lodcom:min                  "0"^^xsd:int .
 
 lodcom:AgeRange_20_29
         a                           lodcom:AgeRange ;
@@ -214,12 +213,6 @@ lodcom:SingleHouseholdAgeRangeCount
         dc:publisher                lodcom:CityAdministrationMuensterDPT ;
         qb:structure                lodcom:SingleHouseholdAgeRangesCountsStructure ;
         sdmx-attribute:unitMeasure  lodcom:Household .
-
-lodcom:AgeRange_0_9  a              lodcom:AgeRange ;
-        rdfs:comment                "The age range for people being 0 to 9 years old." ;
-        sdmx-attribute:unitMeasure  dbo:Year ;
-        lodcom:max                  "9"^^xsd:int ;
-        lodcom:min                  "0"^^xsd:int .
 
 lodcom:averageMeasure
         rdfs:comment  "This resource defines the measurement of a data set. In this case it relates to the average persons per household measurement." ;
