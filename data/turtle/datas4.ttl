@@ -30,7 +30,7 @@ lodcom:single_gender_perc_obs_190
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "45.9"^^xsd:float ;
         lodcom:refArea                 lodcom:sprakel ;
@@ -60,7 +60,7 @@ lodcom:single_gender_perc_obs_148
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.2"^^xsd:float ;
         lodcom:refArea                 lodcom:geist ;
@@ -70,7 +70,7 @@ lodcom:single_gender_perc_obs_106
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "49.8"^^xsd:float ;
         lodcom:refArea                 lodcom:hiltrup-west ;
@@ -90,7 +90,7 @@ lodcom:single_gender_perc_obs_58
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.3"^^xsd:float ;
         lodcom:refArea                 lodcom:gievenbeck ;
@@ -110,7 +110,7 @@ lodcom:single_gender_perc_obs_16
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.0"^^xsd:float ;
         lodcom:refArea                 lodcom:josef ;
@@ -120,7 +120,7 @@ lodcom:single_gender_perc_obs_206
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.4"^^xsd:float ;
         lodcom:refArea                 lodcom:angelmodde ;
@@ -140,7 +140,7 @@ lodcom:single_gender_perc_obs_198
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.4"^^xsd:float ;
         lodcom:refArea                 lodcom:handorf ;
@@ -160,7 +160,7 @@ lodcom:single_gender_perc_obs_156
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "50.5"^^xsd:float ;
         lodcom:refArea                 lodcom:hafen ;
@@ -170,7 +170,7 @@ lodcom:single_gender_perc_obs_114
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.0"^^xsd:float ;
         lodcom:refArea                 lodcom:aegidii ;
@@ -190,7 +190,7 @@ lodcom:single_gender_perc_obs_66
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "50.6"^^xsd:float ;
         lodcom:refArea                 lodcom:roxel ;
@@ -210,7 +210,7 @@ lodcom:single_gender_perc_obs_24
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.7"^^xsd:float ;
         lodcom:refArea                 lodcom:schlachthof ;
@@ -220,7 +220,7 @@ lodcom:single_gender_perc_obs_214
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "56.1"^^xsd:float ;
         lodcom:refArea                 lodcom:hiltrup-ost ;
@@ -250,7 +250,7 @@ lodcom:single_gender_perc_obs_164
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.9"^^xsd:float ;
         lodcom:refArea                 lodcom:uppenberg ;
@@ -260,7 +260,7 @@ lodcom:single_gender_perc_obs_122
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "62.1"^^xsd:float ;
         lodcom:refArea                 lodcom:martini ;
@@ -290,7 +290,7 @@ lodcom:single_gender_perc_obs_74
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.6"^^xsd:float ;
         lodcom:refArea                 lodcom:kinderhaus-ost ;
@@ -310,7 +310,7 @@ lodcom:single_gender_perc_obs_32
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.1"^^xsd:float ;
         lodcom:refArea                 lodcom:innenstadtring ;
@@ -320,7 +320,7 @@ lodcom:single_gender_perc_obs_222
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.1"^^xsd:float ;
         lodcom:refArea                 lodcom:hiltrup ;
@@ -360,7 +360,7 @@ lodcom:single_gender_perc_obs_172
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.3"^^xsd:float ;
         lodcom:refArea                 lodcom:sentrup ;
@@ -380,7 +380,7 @@ lodcom:single_gender_perc_obs_130
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "50.1"^^xsd:float ;
         lodcom:refArea                 lodcom:bahnhof ;
@@ -400,7 +400,7 @@ lodcom:single_gender_perc_obs_82
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.3"^^xsd:float ;
         lodcom:refArea                 lodcom:mauritz-ost ;
@@ -420,7 +420,7 @@ lodcom:single_gender_perc_obs_40
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.5"^^xsd:float ;
         lodcom:refArea                 lodcom:dueesberg ;
@@ -460,7 +460,7 @@ lodcom:single_gender_perc_obs_180
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "48.4"^^xsd:float ;
         lodcom:refArea                 lodcom:nienberge ;
@@ -490,7 +490,7 @@ lodcom:single_gender_perc_obs_138
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.2"^^xsd:float ;
         lodcom:refArea                 lodcom:kreuz ;
@@ -500,7 +500,7 @@ lodcom:single_gender_perc_obs_90
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "51.7"^^xsd:float ;
         lodcom:refArea                 lodcom:gremmendorf-west ;
@@ -520,7 +520,7 @@ lodcom:single_gender_perc_obs_6
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "52.8"^^xsd:float ;
         lodcom:refArea                 lodcom:dom ;
@@ -530,7 +530,7 @@ lodcom:single_gender_perc_obs_48
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "41.7"^^xsd:float ;
         lodcom:refArea                 lodcom:mauritz-mitte ;
@@ -560,7 +560,7 @@ lodcom:single_gender_perc_obs_188
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.3"^^xsd:float ;
         lodcom:refArea                 lodcom:kinderhaus-west ;
@@ -590,7 +590,7 @@ lodcom:single_gender_perc_obs_146
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "60.2"^^xsd:float ;
         lodcom:refArea                 lodcom:aaseestadt ;
@@ -600,7 +600,7 @@ lodcom:single_gender_perc_obs_98
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.9"^^xsd:float ;
         lodcom:refArea                 lodcom:suedost ;
@@ -610,7 +610,7 @@ lodcom:single_gender_perc_obs_104
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.7"^^xsd:float ;
         lodcom:refArea                 lodcom:hiltrup-mitte ;
@@ -630,7 +630,7 @@ lodcom:single_gender_perc_obs_56
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.7"^^xsd:float ;
         lodcom:refArea                 lodcom:mitte ;
@@ -650,7 +650,7 @@ lodcom:single_gender_perc_obs_14
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "40.8"^^xsd:float ;
         lodcom:refArea                 lodcom:pluggendorf ;
@@ -660,7 +660,7 @@ lodcom:single_gender_perc_obs_204
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.9"^^xsd:float ;
         lodcom:refArea                 lodcom:gremmendorf-ost ;
@@ -680,7 +680,7 @@ lodcom:single_gender_perc_obs_196
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.6"^^xsd:float ;
         lodcom:refArea                 lodcom:gelmer-dyckburg ;
@@ -700,7 +700,7 @@ lodcom:single_gender_perc_obs_154
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.8"^^xsd:float ;
         lodcom:refArea                 lodcom:mitte-sued ;
@@ -710,7 +710,7 @@ lodcom:single_gender_perc_obs_112
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.5"^^xsd:float ;
         lodcom:refArea                 lodcom:muenster ;
@@ -730,7 +730,7 @@ lodcom:single_gender_perc_obs_64
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.7"^^xsd:float ;
         lodcom:refArea                 lodcom:albachten ;
@@ -750,7 +750,7 @@ lodcom:single_gender_perc_obs_22
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "41.1"^^xsd:float ;
         lodcom:refArea                 lodcom:mauritz-west ;
@@ -760,7 +760,7 @@ lodcom:single_gender_perc_obs_212
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "48.5"^^xsd:float ;
         lodcom:refArea                 lodcom:berg_fidel ;
@@ -790,7 +790,7 @@ lodcom:single_gender_perc_obs_162
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.2"^^xsd:float ;
         lodcom:refArea                 lodcom:rumphorst ;
@@ -800,7 +800,7 @@ lodcom:single_gender_perc_obs_120
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "50.3"^^xsd:float ;
         lodcom:refArea                 lodcom:buddenturm ;
@@ -830,7 +830,7 @@ lodcom:single_gender_perc_obs_72
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "48.6"^^xsd:float ;
         lodcom:refArea                 lodcom:coerde ;
@@ -850,7 +850,7 @@ lodcom:single_gender_perc_obs_30
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.3"^^xsd:float ;
         lodcom:refArea                 lodcom:schloss ;
@@ -860,7 +860,7 @@ lodcom:single_gender_perc_obs_220
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.2"^^xsd:float ;
         lodcom:refArea                 lodcom:amelsbueren ;
@@ -890,7 +890,7 @@ lodcom:single_gender_perc_obs_170
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.7"^^xsd:float ;
         lodcom:refArea                 lodcom:gievenbeck ;
@@ -910,7 +910,7 @@ lodcom:single_gender_perc_obs_128
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "58.0"^^xsd:float ;
         lodcom:refArea                 lodcom:josef ;
@@ -920,7 +920,7 @@ lodcom:single_gender_perc_obs_80
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.7"^^xsd:float ;
         lodcom:refArea                 lodcom:nord ;
@@ -940,7 +940,7 @@ lodcom:single_gender_perc_obs_38
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.6"^^xsd:float ;
         lodcom:refArea                 lodcom:schuetzenhof ;
@@ -980,7 +980,7 @@ lodcom:single_gender_perc_obs_178
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "49.4"^^xsd:float ;
         lodcom:refArea                 lodcom:roxel ;
@@ -1010,7 +1010,7 @@ lodcom:single_gender_perc_obs_136
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.3"^^xsd:float ;
         lodcom:refArea                 lodcom:schlachthof ;
@@ -1030,7 +1030,7 @@ lodcom:single_gender_perc_obs_88
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "43.1"^^xsd:float ;
         lodcom:refArea                 lodcom:ost ;
@@ -1050,7 +1050,7 @@ lodcom:single_gender_perc_obs_4
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.0"^^xsd:float ;
         lodcom:refArea                 lodcom:ueberwasser ;
@@ -1060,7 +1060,7 @@ lodcom:single_gender_perc_obs_46
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.4"^^xsd:float ;
         lodcom:refArea                 lodcom:herz-jesu ;
@@ -1090,7 +1090,7 @@ lodcom:single_gender_perc_obs_186
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.4"^^xsd:float ;
         lodcom:refArea                 lodcom:kinderhaus-ost ;
@@ -1120,7 +1120,7 @@ lodcom:single_gender_perc_obs_144
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.9"^^xsd:float ;
         lodcom:refArea                 lodcom:innenstadtring ;
@@ -1130,7 +1130,7 @@ lodcom:single_gender_perc_obs_96
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.2"^^xsd:float ;
         lodcom:refArea                 lodcom:wolbeck ;
@@ -1140,7 +1140,7 @@ lodcom:single_gender_perc_obs_102
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "43.9"^^xsd:float ;
         lodcom:refArea                 lodcom:hiltrup-ost ;
@@ -1160,7 +1160,7 @@ lodcom:single_gender_perc_obs_54
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.4"^^xsd:float ;
         lodcom:refArea                 lodcom:mitte-nordost ;
@@ -1180,7 +1180,7 @@ lodcom:single_gender_perc_obs_12
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.2"^^xsd:float ;
         lodcom:refArea                 lodcom:altstadt ;
@@ -1190,7 +1190,7 @@ lodcom:single_gender_perc_obs_202
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "48.3"^^xsd:float ;
         lodcom:refArea                 lodcom:gremmendorf-west ;
@@ -1210,7 +1210,7 @@ lodcom:single_gender_perc_obs_194
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.7"^^xsd:float ;
         lodcom:refArea                 lodcom:mauritz-ost ;
@@ -1240,7 +1240,7 @@ lodcom:single_gender_perc_obs_152
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.5"^^xsd:float ;
         lodcom:refArea                 lodcom:dueesberg ;
@@ -1250,7 +1250,7 @@ lodcom:single_gender_perc_obs_110
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.9"^^xsd:float ;
         lodcom:refArea                 lodcom:hiltrup ;
@@ -1270,7 +1270,7 @@ lodcom:single_gender_perc_obs_62
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.1"^^xsd:float ;
         lodcom:refArea                 lodcom:mecklenbeck ;
@@ -1290,7 +1290,7 @@ lodcom:single_gender_perc_obs_20
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.2"^^xsd:float ;
         lodcom:refArea                 lodcom:hansaplatz ;
@@ -1300,7 +1300,7 @@ lodcom:single_gender_perc_obs_210
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.1"^^xsd:float ;
         lodcom:refArea                 lodcom:suedost ;
@@ -1330,7 +1330,7 @@ lodcom:single_gender_perc_obs_160
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "58.3"^^xsd:float ;
         lodcom:refArea                 lodcom:mauritz-mitte ;
@@ -1350,7 +1350,7 @@ lodcom:single_gender_perc_obs_118
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "47.2"^^xsd:float ;
         lodcom:refArea                 lodcom:dom ;
@@ -1370,7 +1370,7 @@ lodcom:single_gender_perc_obs_70
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.7"^^xsd:float ;
         lodcom:refArea                 lodcom:west ;
@@ -1390,7 +1390,7 @@ lodcom:single_gender_perc_obs_28
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "48.3"^^xsd:float ;
         lodcom:refArea                 lodcom:neutor ;
@@ -1400,7 +1400,7 @@ lodcom:single_gender_perc_obs_218
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "50.2"^^xsd:float ;
         lodcom:refArea                 lodcom:hiltrup-west ;
@@ -1430,7 +1430,7 @@ lodcom:single_gender_perc_obs_168
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.3"^^xsd:float ;
         lodcom:refArea                 lodcom:mitte ;
@@ -1440,7 +1440,7 @@ lodcom:single_gender_perc_obs_126
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "59.2"^^xsd:float ;
         lodcom:refArea                 lodcom:pluggendorf ;
@@ -1470,7 +1470,7 @@ lodcom:single_gender_perc_obs_78
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "54.1"^^xsd:float ;
         lodcom:refArea                 lodcom:sprakel ;
@@ -1490,7 +1490,7 @@ lodcom:single_gender_perc_obs_36
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.8"^^xsd:float ;
         lodcom:refArea                 lodcom:geist ;
@@ -1530,7 +1530,7 @@ lodcom:single_gender_perc_obs_176
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.3"^^xsd:float ;
         lodcom:refArea                 lodcom:albachten ;
@@ -1550,7 +1550,7 @@ lodcom:single_gender_perc_obs_134
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "58.9"^^xsd:float ;
         lodcom:refArea                 lodcom:mauritz-west ;
@@ -1570,7 +1570,7 @@ lodcom:single_gender_perc_obs_86
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.6"^^xsd:float ;
         lodcom:refArea                 lodcom:handorf ;
@@ -1590,7 +1590,7 @@ lodcom:single_gender_perc_obs_2
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.0"^^xsd:float ;
         lodcom:refArea                 lodcom:aegidii ;
@@ -1600,7 +1600,7 @@ lodcom:single_gender_perc_obs_44
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "49.5"^^xsd:float ;
         lodcom:refArea                 lodcom:hafen ;
@@ -1630,7 +1630,7 @@ lodcom:single_gender_perc_obs_184
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "51.4"^^xsd:float ;
         lodcom:refArea                 lodcom:coerde ;
@@ -1660,7 +1660,7 @@ lodcom:single_gender_perc_obs_142
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "57.7"^^xsd:float ;
         lodcom:refArea                 lodcom:schloss ;
@@ -1670,7 +1670,7 @@ lodcom:single_gender_perc_obs_94
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.6"^^xsd:float ;
         lodcom:refArea                 lodcom:angelmodde ;
@@ -1680,7 +1680,7 @@ lodcom:single_gender_perc_obs_100
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "51.5"^^xsd:float ;
         lodcom:refArea                 lodcom:berg_fidel ;
@@ -1700,7 +1700,7 @@ lodcom:single_gender_perc_obs_52
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.1"^^xsd:float ;
         lodcom:refArea                 lodcom:uppenberg ;
@@ -1720,7 +1720,7 @@ lodcom:single_gender_perc_obs_10
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "37.9"^^xsd:float ;
         lodcom:refArea                 lodcom:martini ;
@@ -1730,7 +1730,7 @@ lodcom:single_gender_perc_obs_200
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "56.9"^^xsd:float ;
         lodcom:refArea                 lodcom:ost ;
@@ -1750,7 +1750,7 @@ lodcom:single_gender_perc_obs_192
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.3"^^xsd:float ;
         lodcom:refArea                 lodcom:nord ;
@@ -1780,7 +1780,7 @@ lodcom:single_gender_perc_obs_150
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.4"^^xsd:float ;
         lodcom:refArea                 lodcom:schuetzenhof ;
@@ -1800,7 +1800,7 @@ lodcom:single_gender_perc_obs_108
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.8"^^xsd:float ;
         lodcom:refArea                 lodcom:amelsbueren ;
@@ -1810,7 +1810,7 @@ lodcom:single_gender_perc_obs_60
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.7"^^xsd:float ;
         lodcom:refArea                 lodcom:sentrup ;
@@ -1830,7 +1830,7 @@ lodcom:single_gender_perc_obs_18
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "49.9"^^xsd:float ;
         lodcom:refArea                 lodcom:bahnhof ;
@@ -1840,7 +1840,7 @@ lodcom:single_gender_perc_obs_208
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.8"^^xsd:float ;
         lodcom:refArea                 lodcom:wolbeck ;
@@ -1870,7 +1870,7 @@ lodcom:single_gender_perc_obs_158
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.6"^^xsd:float ;
         lodcom:refArea                 lodcom:herz-jesu ;
@@ -1880,7 +1880,7 @@ lodcom:single_gender_perc_obs_116
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "56.0"^^xsd:float ;
         lodcom:refArea                 lodcom:ueberwasser ;
@@ -1900,7 +1900,7 @@ lodcom:single_gender_perc_obs_68
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "51.6"^^xsd:float ;
         lodcom:refArea                 lodcom:nienberge ;
@@ -1920,7 +1920,7 @@ lodcom:single_gender_perc_obs_26
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "44.8"^^xsd:float ;
         lodcom:refArea                 lodcom:kreuz ;
@@ -1930,7 +1930,7 @@ lodcom:single_gender_perc_obs_216
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.3"^^xsd:float ;
         lodcom:refArea                 lodcom:hiltrup-mitte ;
@@ -1960,7 +1960,7 @@ lodcom:single_gender_perc_obs_166
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "55.6"^^xsd:float ;
         lodcom:refArea                 lodcom:mitte-nordost ;
@@ -1970,7 +1970,7 @@ lodcom:single_gender_perc_obs_124
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.8"^^xsd:float ;
         lodcom:refArea                 lodcom:altstadt ;
@@ -2000,7 +2000,7 @@ lodcom:single_gender_perc_obs_76
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "46.7"^^xsd:float ;
         lodcom:refArea                 lodcom:kinderhaus-west ;
@@ -2020,7 +2020,7 @@ lodcom:single_gender_perc_obs_34
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "39.8"^^xsd:float ;
         lodcom:refArea                 lodcom:aaseestadt ;
@@ -2030,7 +2030,7 @@ lodcom:single_gender_perc_obs_224
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "54.5"^^xsd:float ;
         lodcom:refArea                 lodcom:muenster ;
@@ -2070,7 +2070,7 @@ lodcom:single_gender_perc_obs_174
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.9"^^xsd:float ;
         lodcom:refArea                 lodcom:mecklenbeck ;
@@ -2090,7 +2090,7 @@ lodcom:single_gender_perc_obs_132
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "52.8"^^xsd:float ;
         lodcom:refArea                 lodcom:hansaplatz ;
@@ -2110,7 +2110,7 @@ lodcom:single_gender_perc_obs_84
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.4"^^xsd:float ;
         lodcom:refArea                 lodcom:gelmer-dyckburg ;
@@ -2130,7 +2130,7 @@ lodcom:single_gender_perc_obs_42
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "45.2"^^xsd:float ;
         lodcom:refArea                 lodcom:mitte-sued ;
@@ -2170,7 +2170,7 @@ lodcom:single_gender_perc_obs_182
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "53.3"^^xsd:float ;
         lodcom:refArea                 lodcom:west ;
@@ -2200,7 +2200,7 @@ lodcom:single_gender_perc_obs_140
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-F ;
         lodcom:percentageOfHouseholds  "51.7"^^xsd:float ;
         lodcom:refArea                 lodcom:neutor ;
@@ -2210,7 +2210,7 @@ lodcom:single_gender_perc_obs_92
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "47.1"^^xsd:float ;
         lodcom:refArea                 lodcom:gremmendorf-ost ;
@@ -2230,7 +2230,7 @@ lodcom:single_gender_perc_obs_8
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "49.7"^^xsd:float ;
         lodcom:refArea                 lodcom:buddenturm ;
@@ -2240,7 +2240,7 @@ lodcom:single_gender_perc_obs_50
         a                              qb:Observation ;
         qb:dataSet                     lodcom:SingleHouseholdGenderCount ;
         qb:measureType                 lodcom:percentageOfHouseholds ;
-        sdmx-attribute:unitMeasure     lodcom:PercentHouseholds ;
+        sdmx-attribute:unitMeasure     lodcom:Percentage ;
         sdmx-dimension:sex             sdmx-code:sex-M ;
         lodcom:percentageOfHouseholds  "42.8"^^xsd:float ;
         lodcom:refArea                 lodcom:rumphorst ;

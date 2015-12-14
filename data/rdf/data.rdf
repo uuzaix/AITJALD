@@ -16,6 +16,10 @@
     xmlns:geo="http://www.opengis.net/ont/geosparql#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:sdmx-attribute="http://purl.org/linked-data/sdmx/2009/attribute#">
+  <rdfs:Class rdf:about="http://vocab.lodcom.de/Percentage">
+    <rdfs:label xml:lang="de">Prozent an Haushalten</rdfs:label>
+    <rdfs:label xml:lang="en">percent on households</rdfs:label>
+  </rdfs:Class>
   <rdfs:Class rdf:about="http://vocab.lodcom.de/AgeRange">
     <rdfs:label xml:lang="en">Age Range</rdfs:label>
     <rdfs:label xml:lang="de">Altersgruppe</rdfs:label>
@@ -27,13 +31,10 @@
     <rdfs:label xml:lang="de">Haushalt</rdfs:label>
     <rdfs:label xml:lang="en">Household</rdfs:label>
   </rdfs:Class>
-  <rdfs:Class rdf:about="http://vocab.lodcom.de/PercentHouseholds">
-    <rdfs:label xml:lang="de">Prozent an Haushalten</rdfs:label>
-    <rdfs:label xml:lang="en">percent on households</rdfs:label>
-  </rdfs:Class>
-  <rdfs:Class rdf:about="http://vocab.lodcom.de/AveragePersons">
-    <rdfs:label xml:lang="de">Durchschnittliche Anzahl an Personen pro Haushalt</rdfs:label>
-    <rdfs:label xml:lang="en">average persons per household</rdfs:label>
+  <rdfs:Class rdf:about="http://vocab.lodcom.de/Person">
+    <rdfs:label xml:lang="de">Person</rdfs:label>
+    <rdfs:label xml:lang="en">person</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/ontology/Person"/>
   </rdfs:Class>
   <rdf:Property rdf:about="http://vocab.lodcom.de/upperAdministrativeLevel">
     <rdfs:range rdf:resource="http://dbpedia.org/ontology/AdministrativeRegion"/>
@@ -55,7 +56,7 @@
   <qb:Observation rdf:about="http://vocab.lodcom.de/average_pph_obs_275">
     <qb:dataSet>
       <qb:DataSet rdf:about="http://vocab.lodcom.de/AveragePersonsPerHousehold">
-        <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/AveragePersons"/>
+        <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Person"/>
         <dc:publisher>
           <dc:Agent rdf:about="http://vocab.lodcom.de/CityAdministrationMuensterDPT">
             <vcard:hasTelephone>
@@ -1319,7 +1320,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_190">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >45.9</lodcom:percentageOfHouseholds>
     <qb:measureType>
@@ -1661,7 +1662,7 @@
     >1.97</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_192">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -1965,7 +1966,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdGenderCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_102">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >43.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -2102,7 +2103,7 @@
     >499</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_104">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >44.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -2269,7 +2270,7 @@
     >369</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_52">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -2311,7 +2312,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_106">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >49.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -2445,7 +2446,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_50">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >42.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -2480,7 +2481,7 @@
     >1177</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_108">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >45.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -2631,7 +2632,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_44">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >49.5</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -2848,7 +2849,7 @@
     >184</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_42">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >45.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -3015,7 +3016,7 @@
     >210</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_48">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >41.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -3199,7 +3200,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_46">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >45.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -3266,7 +3267,7 @@
     >1164</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_100">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >51.5</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -3375,7 +3376,7 @@
     >4913</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_182">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >53.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -3712,7 +3713,7 @@
     >145</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_184">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >51.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -3926,7 +3927,7 @@
     >480</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_186">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >54.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -4172,7 +4173,7 @@
     >1837</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_188">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >53.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -4993,7 +4994,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_180">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >48.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -5219,7 +5220,7 @@
     >4174</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_224">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >54.5</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -5262,7 +5263,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_60">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >42.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -5725,7 +5726,7 @@
     >745</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_64">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >44.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -5892,7 +5893,7 @@
     >30</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_62">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -6107,7 +6108,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_56">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >44.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -6167,7 +6168,7 @@
     >255</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_178">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >49.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -6344,7 +6345,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_54">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >44.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -6530,7 +6531,7 @@
     >995</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_220">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >54.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -6722,7 +6723,7 @@
     >1458</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_222">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >53.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -6833,7 +6834,7 @@
     >133</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_58">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >46.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -7026,7 +7027,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_170">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >53.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -7276,7 +7277,7 @@
     >135</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_172">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >57.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -7636,7 +7637,7 @@
     >447</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_174">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -7920,7 +7921,7 @@
     >384</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_176">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >55.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -8866,7 +8867,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_212">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >48.5</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -9096,7 +9097,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/HouseholdsWithChildrenCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_214">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >56.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -9321,7 +9322,7 @@
     >1.36</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_216">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >55.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -9463,7 +9464,7 @@
     >187</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_218">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >50.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -9794,7 +9795,7 @@
     >450</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_20">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -9828,7 +9829,7 @@
     >1397</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_166">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >55.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -9996,7 +9997,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_168">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >55.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10022,7 +10023,7 @@
     >1.98</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_8">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >49.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10139,7 +10140,7 @@
     >2957</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_24">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >42.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10223,7 +10224,7 @@
     >1088</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_6">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10293,7 +10294,7 @@
     >66</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_210">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10376,7 +10377,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_22">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >41.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10468,7 +10469,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_4">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >44.0</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10529,7 +10530,7 @@
     >19956</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_28">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >48.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10680,7 +10681,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_2">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.0</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10764,7 +10765,7 @@
     >181</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_160">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >58.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -10790,7 +10791,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_26">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >44.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -11042,7 +11043,7 @@
     >636</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_162">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >57.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -11228,7 +11229,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_164">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -11286,7 +11287,7 @@
     >414</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_208">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >53.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -11966,7 +11967,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/HouseholdsWithChildrenCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_200">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >56.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -12222,7 +12223,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_202">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >48.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -12422,7 +12423,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_204">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -12472,7 +12473,7 @@
     >1326</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_40">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >46.5</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -12648,7 +12649,7 @@
     >26565</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_206">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -12947,7 +12948,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_32">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >44.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -12998,7 +12999,7 @@
     >431</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_154">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >54.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -13165,7 +13166,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_30">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >42.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -13208,7 +13209,7 @@
     >3140</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_156">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >50.5</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -13327,7 +13328,7 @@
     >296</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_36">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >46.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -13387,7 +13388,7 @@
     >291</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_158">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >54.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -13499,7 +13500,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_34">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >39.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -13820,7 +13821,7 @@
     >14</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_38">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >45.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -14042,7 +14043,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_150">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >54.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -14303,7 +14304,7 @@
     >2978</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_152">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >53.5</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -14784,7 +14785,7 @@
     >1.47</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_92">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -15020,7 +15021,7 @@
     >1.4</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_90">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >51.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -15323,7 +15324,7 @@
     >466</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_96">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >46.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -15504,7 +15505,7 @@
     >1.45</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_94">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -15966,7 +15967,7 @@
     >2.11</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_98">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -16300,7 +16301,7 @@
     >160291</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_142">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >57.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -16506,7 +16507,7 @@
     >2384</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_144">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >55.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -16757,7 +16758,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_146">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >60.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -16968,7 +16969,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_148">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >53.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -17853,7 +17854,7 @@
     >1049</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_140">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >51.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -18602,7 +18603,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_138">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >55.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -19374,7 +19375,7 @@
     >661</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_130">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >50.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -19599,7 +19600,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_132">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -19735,7 +19736,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_12">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -19827,7 +19828,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_134">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >58.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -20040,7 +20041,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_10">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >37.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -20108,7 +20109,7 @@
     >161</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_136">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >57.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -20193,7 +20194,7 @@
     >108</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_16">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >42.0</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -20399,7 +20400,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_14">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >40.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -20720,7 +20721,7 @@
     >2662</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_18">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >49.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -21607,7 +21608,7 @@
     >156</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_72">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >48.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -21674,7 +21675,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/FivePersonsMoreHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_126">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >59.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -21789,7 +21790,7 @@
     >770</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_70">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >46.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -21848,7 +21849,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/HouseholdsWithChildrenCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_128">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >58.0</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -21994,7 +21995,7 @@
     >1.45</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_76">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >46.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -22188,7 +22189,7 @@
     >768</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_74">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >45.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -22386,7 +22387,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_68">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >51.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -22645,7 +22646,7 @@
     >4329</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_66">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >50.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -22752,7 +22753,7 @@
     >785</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_120">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >50.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -23037,7 +23038,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_122">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >62.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -23229,7 +23230,7 @@
     >4384</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_124">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.8</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -24664,7 +24665,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_80">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -25022,7 +25023,7 @@
     >8260</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_84">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -25105,7 +25106,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_114">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >53.0</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -25204,7 +25205,7 @@
     >3766</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_82">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >42.3</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -25255,7 +25256,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/HouseholdsWithChildrenCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_116">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >56.0</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -25416,7 +25417,7 @@
     >1.94</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_88">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >43.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -25467,7 +25468,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/HouseholdsWithChildrenCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_118">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >47.2</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -25582,7 +25583,7 @@
     >2660</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_86">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >42.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -26008,7 +26009,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/SingleHouseholdTotalCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_78">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >54.1</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -26324,7 +26325,7 @@
     <qb:dataSet rdf:resource="http://vocab.lodcom.de/ThreePersonsHouseholdCount"/>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_110">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >46.9</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -26565,7 +26566,7 @@
     >3014</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_112">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >45.5</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -26667,7 +26668,7 @@
     >1.88</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_194">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >57.7</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -27031,7 +27032,7 @@
     >1363</lodcom:numberOfHouseholds>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_196">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >52.6</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>
@@ -27273,7 +27274,7 @@
     >1.34</lodcom:averagePersonsPerHousehold>
   </qb:Observation>
   <qb:Observation rdf:about="http://vocab.lodcom.de/single_gender_perc_obs_198">
-    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/PercentHouseholds"/>
+    <sdmx-attribute:unitMeasure rdf:resource="http://vocab.lodcom.de/Percentage"/>
     <lodcom:percentageOfHouseholds rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
     >57.4</lodcom:percentageOfHouseholds>
     <qb:measureType rdf:resource="http://vocab.lodcom.de/percentageOfHouseholds"/>

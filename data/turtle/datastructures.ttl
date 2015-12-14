@@ -23,10 +23,6 @@ lodcom:SingleHouseholdTotalCount
         qb:structure                lodcom:HouseholdCountsStructure ;
         sdmx-attribute:unitMeasure  lodcom:Household .
 
-lodcom:PercentHouseholds
-        a           rdfs:Class ;
-        rdfs:label  "Prozent an Haushalten"@de , "percent on households"@en .
-
 lodcom:AgeRange_50_59
         a                           lodcom:AgeRange ;
         rdfs:comment                "The age range for people being 50 to 59 years old." ;
@@ -133,6 +129,10 @@ lodcom:TotalHouseholdCount
         qb:structure                lodcom:HouseholdCountsStructure ;
         sdmx-attribute:unitMeasure  lodcom:Household .
 
+lodcom:Person  a      rdfs:Class ;
+        rdfs:label    "Person"@de , "person"@en ;
+        rdfs:seeAlso  dbo:Person .
+
 lodcom:FivePersonsMoreHouseholdCount
         a                           qb:DataSet ;
         rdfs:label                  "5- und mehr Personen-Haushalte der Wohnberechtigten Bevölkerung"@de , "Total Household Count of 5-Person Households and more"@en ;
@@ -152,7 +152,7 @@ lodcom:AveragePersonsPerHousehold
         rdfs:label                  "Durchschittliche Haushaltegröße der Wohnberechtigten Bevölkerung"@de , "Average household sizes"@en ;
         dc:publisher                lodcom:CityAdministrationMuensterDPT ;
         qb:structure                lodcom:AveragePersonsPerHouseholdCountsStructure ;
-        sdmx-attribute:unitMeasure  lodcom:AveragePersons .
+        sdmx-attribute:unitMeasure  lodcom:Person .
 
 lodcom:measureTypeDim
         rdfs:comment  "If a data set has multiple measurements, then this dimension makes it easier to find the correct measurement property." ;
@@ -218,6 +218,9 @@ lodcom:SingleHouseholdAgeRangeCount
         qb:structure                lodcom:SingleHouseholdAgeRangesCountsStructure ;
         sdmx-attribute:unitMeasure  lodcom:Household .
 
+lodcom:Percentage  a  rdfs:Class ;
+        rdfs:label  "Prozent an Haushalten"@de , "percent on households"@en .
+
 lodcom:averageMeasure
         rdfs:comment  "This resource defines the measurement of a data set. In this case it relates to the average persons per household measurement." ;
         qb:measure    lodcom:averagePersonsPerHousehold .
@@ -238,10 +241,6 @@ lodcom:AgeRange_80  a               lodcom:AgeRange ;
         rdfs:comment                "The age range for people being 80 years or older." ;
         sdmx-attribute:unitMeasure  dbo:Year ;
         lodcom:min                  "80"^^xsd:int .
-
-lodcom:AveragePersons
-        a           rdfs:Class ;
-        rdfs:label  "Durchschnittliche Anzahl an Personen pro Haushalt"@de , "average persons per household"@en .
 
 lodcom:min  rdfs:comment    "The lower boundary of the age range in years." ;
         rdfs:domain         lodcom:AgeRange ;
