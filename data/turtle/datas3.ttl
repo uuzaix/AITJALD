@@ -19,6 +19,7 @@
 lodcom:single_age_obs_230
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "329"^^xsd:int ;
         lodcom:refArea             lodcom:gievenbeck ;
@@ -27,6 +28,7 @@ lodcom:single_age_obs_230
 lodcom:single_age_obs_31
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "43"^^xsd:int ;
         lodcom:refArea             lodcom:buddenturm ;
@@ -35,6 +37,7 @@ lodcom:single_age_obs_31
 lodcom:single_age_obs_145
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "68"^^xsd:int ;
         lodcom:refArea             lodcom:schuetzenhof ;
@@ -43,6 +46,7 @@ lodcom:single_age_obs_145
 lodcom:single_age_obs_411
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "362"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-mitte ;
@@ -51,6 +55,7 @@ lodcom:single_age_obs_411
 lodcom:single_age_obs_326
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "274"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-ost ;
@@ -59,6 +64,7 @@ lodcom:single_age_obs_326
 lodcom:single_age_obs_200
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "218"^^xsd:int ;
         lodcom:refArea             lodcom:rumphorst ;
@@ -67,6 +73,7 @@ lodcom:single_age_obs_200
 lodcom:single_age_obs_115
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "128"^^xsd:int ;
         lodcom:refArea             lodcom:schloss ;
@@ -75,6 +82,7 @@ lodcom:single_age_obs_115
 lodcom:single_age_obs_398
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "119"^^xsd:int ;
         lodcom:refArea             lodcom:berg_fidel ;
@@ -83,6 +91,7 @@ lodcom:single_age_obs_398
 lodcom:single_age_obs_272
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "103"^^xsd:int ;
         lodcom:refArea             lodcom:nienberge ;
@@ -91,6 +100,7 @@ lodcom:single_age_obs_272
 lodcom:single_age_obs_73
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "57"^^xsd:int ;
         lodcom:refArea             lodcom:hansaplatz ;
@@ -99,6 +109,7 @@ lodcom:single_age_obs_73
 lodcom:single_age_obs_187
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "646"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-mitte ;
@@ -107,6 +118,7 @@ lodcom:single_age_obs_187
 lodcom:single_age_obs_368
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "140"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-ost ;
@@ -115,6 +127,7 @@ lodcom:single_age_obs_368
 lodcom:single_age_obs_242
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "518"^^xsd:int ;
         lodcom:refArea             lodcom:mecklenbeck ;
@@ -123,6 +136,7 @@ lodcom:single_age_obs_242
 lodcom:single_age_obs_43
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "772"^^xsd:int ;
         lodcom:refArea             lodcom:altstadt ;
@@ -131,6 +145,7 @@ lodcom:single_age_obs_43
 lodcom:single_age_obs_157
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "218"^^xsd:int ;
         lodcom:refArea             lodcom:dueesberg ;
@@ -139,6 +154,7 @@ lodcom:single_age_obs_157
 lodcom:single_age_obs_423
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "180"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-west ;
@@ -147,6 +163,7 @@ lodcom:single_age_obs_423
 lodcom:single_age_obs_338
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "134"^^xsd:int ;
         lodcom:refArea             lodcom:handorf ;
@@ -155,6 +172,7 @@ lodcom:single_age_obs_338
 lodcom:single_age_obs_212
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "1466"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-nordost ;
@@ -163,6 +181,7 @@ lodcom:single_age_obs_212
 lodcom:single_age_obs_13
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "47"^^xsd:int ;
         lodcom:refArea             lodcom:ueberwasser ;
@@ -171,6 +190,7 @@ lodcom:single_age_obs_13
 lodcom:single_age_obs_127
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "1174"^^xsd:int ;
         lodcom:refArea             lodcom:innenstadtring ;
@@ -179,6 +199,7 @@ lodcom:single_age_obs_127
 lodcom:single_age_obs_308
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "63"^^xsd:int ;
         lodcom:refArea             lodcom:sprakel ;
@@ -187,6 +208,7 @@ lodcom:single_age_obs_308
 lodcom:single_age_obs_284
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "294"^^xsd:int ;
         lodcom:refArea             lodcom:coerde ;
@@ -195,6 +217,7 @@ lodcom:single_age_obs_284
 lodcom:single_age_obs_85
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "350"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-west ;
@@ -203,6 +226,7 @@ lodcom:single_age_obs_85
 lodcom:single_age_obs_199
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "193"^^xsd:int ;
         lodcom:refArea             lodcom:rumphorst ;
@@ -211,6 +235,7 @@ lodcom:single_age_obs_199
 lodcom:single_age_obs_254
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "118"^^xsd:int ;
         lodcom:refArea             lodcom:albachten ;
@@ -219,6 +244,7 @@ lodcom:single_age_obs_254
 lodcom:single_age_obs_55
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "99"^^xsd:int ;
         lodcom:refArea             lodcom:pluggendorf ;
@@ -227,6 +253,7 @@ lodcom:single_age_obs_55
 lodcom:single_age_obs_169
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "6"^^xsd:int ;
         lodcom:refArea             lodcom:hafen ;
@@ -235,6 +262,7 @@ lodcom:single_age_obs_169
 lodcom:single_age_obs_435
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "940"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup ;
@@ -243,6 +271,7 @@ lodcom:single_age_obs_435
 lodcom:single_age_obs_224
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "2662"^^xsd:int ;
         lodcom:refArea             lodcom:mitte ;
@@ -251,6 +280,7 @@ lodcom:single_age_obs_224
 lodcom:single_age_obs_25
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "30"^^xsd:int ;
         lodcom:refArea             lodcom:buddenturm ;
@@ -259,6 +289,7 @@ lodcom:single_age_obs_25
 lodcom:single_age_obs_139
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "604"^^xsd:int ;
         lodcom:refArea             lodcom:geist ;
@@ -267,6 +298,7 @@ lodcom:single_age_obs_139
 lodcom:single_age_obs_405
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "190"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-ost ;
@@ -275,6 +307,7 @@ lodcom:single_age_obs_405
 lodcom:single_age_obs_381
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "291"^^xsd:int ;
         lodcom:refArea             lodcom:wolbeck ;
@@ -283,6 +316,7 @@ lodcom:single_age_obs_381
 lodcom:single_age_obs_2
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "282"^^xsd:int ;
         lodcom:refArea             lodcom:aegidii ;
@@ -291,6 +325,7 @@ lodcom:single_age_obs_2
 lodcom:single_age_obs_296
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "91"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-ost ;
@@ -299,6 +334,7 @@ lodcom:single_age_obs_296
 lodcom:single_age_obs_109
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "146"^^xsd:int ;
         lodcom:refArea             lodcom:neutor ;
@@ -307,6 +343,7 @@ lodcom:single_age_obs_109
 lodcom:single_age_obs_97
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "116"^^xsd:int ;
         lodcom:refArea             lodcom:kreuz ;
@@ -315,6 +352,7 @@ lodcom:single_age_obs_97
 lodcom:single_age_obs_170
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "280"^^xsd:int ;
         lodcom:refArea             lodcom:hafen ;
@@ -323,6 +361,7 @@ lodcom:single_age_obs_170
 lodcom:single_age_obs_351
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "597"^^xsd:int ;
         lodcom:refArea             lodcom:ost ;
@@ -331,6 +370,7 @@ lodcom:single_age_obs_351
 lodcom:single_age_obs_266
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "424"^^xsd:int ;
         lodcom:refArea             lodcom:nienberge ;
@@ -339,6 +379,7 @@ lodcom:single_age_obs_266
 lodcom:single_age_obs_67
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "134"^^xsd:int ;
         lodcom:refArea             lodcom:bahnhof ;
@@ -347,6 +388,7 @@ lodcom:single_age_obs_67
 lodcom:single_age_obs_140
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "373"^^xsd:int ;
         lodcom:refArea             lodcom:geist ;
@@ -355,6 +397,7 @@ lodcom:single_age_obs_140
 lodcom:single_age_obs_447
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "7101"^^xsd:int ;
         lodcom:refArea             lodcom:muenster ;
@@ -363,6 +406,7 @@ lodcom:single_age_obs_447
 lodcom:single_age_obs_321
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "57"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-ost ;
@@ -371,6 +415,7 @@ lodcom:single_age_obs_321
 lodcom:single_age_obs_236
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "157"^^xsd:int ;
         lodcom:refArea             lodcom:sentrup ;
@@ -379,6 +424,7 @@ lodcom:single_age_obs_236
 lodcom:single_age_obs_37
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "55"^^xsd:int ;
         lodcom:refArea             lodcom:martini ;
@@ -387,6 +433,7 @@ lodcom:single_age_obs_37
 lodcom:single_age_obs_110
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "81"^^xsd:int ;
         lodcom:refArea             lodcom:neutor ;
@@ -395,6 +442,7 @@ lodcom:single_age_obs_110
 lodcom:single_age_obs_417
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "26"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-west ;
@@ -403,6 +451,7 @@ lodcom:single_age_obs_417
 lodcom:single_age_obs_393
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "25"^^xsd:int ;
         lodcom:refArea             lodcom:berg_fidel ;
@@ -411,6 +460,7 @@ lodcom:single_age_obs_393
 lodcom:single_age_obs_206
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "221"^^xsd:int ;
         lodcom:refArea             lodcom:uppenberg ;
@@ -419,6 +469,7 @@ lodcom:single_age_obs_206
 lodcom:single_age_obs_182
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "129"^^xsd:int ;
         lodcom:refArea             lodcom:herz-jesu ;
@@ -427,6 +478,7 @@ lodcom:single_age_obs_182
 lodcom:single_age_obs_363
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "170"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-ost ;
@@ -435,6 +487,7 @@ lodcom:single_age_obs_363
 lodcom:single_age_obs_278
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "1152"^^xsd:int ;
         lodcom:refArea             lodcom:west ;
@@ -443,6 +496,7 @@ lodcom:single_age_obs_278
 lodcom:single_age_obs_79
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "116"^^xsd:int ;
         lodcom:refArea             lodcom:hansaplatz ;
@@ -451,6 +505,7 @@ lodcom:single_age_obs_79
 lodcom:single_age_obs_152
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "129"^^xsd:int ;
         lodcom:refArea             lodcom:schuetzenhof ;
@@ -459,6 +514,7 @@ lodcom:single_age_obs_152
 lodcom:single_age_obs_333
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "125"^^xsd:int ;
         lodcom:refArea             lodcom:gelmer-dyckburg ;
@@ -467,6 +523,7 @@ lodcom:single_age_obs_333
 lodcom:single_age_obs_248
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "178"^^xsd:int ;
         lodcom:refArea             lodcom:mecklenbeck ;
@@ -475,6 +532,7 @@ lodcom:single_age_obs_248
 lodcom:single_age_obs_49
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "88"^^xsd:int ;
         lodcom:refArea             lodcom:pluggendorf ;
@@ -483,6 +541,7 @@ lodcom:single_age_obs_49
 lodcom:single_age_obs_122
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "10574"^^xsd:int ;
         lodcom:refArea             lodcom:innenstadtring ;
@@ -491,6 +550,7 @@ lodcom:single_age_obs_122
 lodcom:single_age_obs_429
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "119"^^xsd:int ;
         lodcom:refArea             lodcom:amelsbueren ;
@@ -499,6 +559,7 @@ lodcom:single_age_obs_429
 lodcom:single_age_obs_303
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "305"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-west ;
@@ -507,6 +568,7 @@ lodcom:single_age_obs_303
 lodcom:single_age_obs_218
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "19956"^^xsd:int ;
         lodcom:refArea             lodcom:mitte ;
@@ -515,6 +577,7 @@ lodcom:single_age_obs_218
 lodcom:single_age_obs_19
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "231"^^xsd:int ;
         lodcom:refArea             lodcom:dom ;
@@ -523,6 +586,7 @@ lodcom:single_age_obs_19
 lodcom:single_age_obs_80
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "112"^^xsd:int ;
         lodcom:refArea             lodcom:hansaplatz ;
@@ -531,6 +595,7 @@ lodcom:single_age_obs_80
 lodcom:single_age_obs_194
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "539"^^xsd:int ;
         lodcom:refArea             lodcom:rumphorst ;
@@ -539,6 +604,7 @@ lodcom:single_age_obs_194
 lodcom:single_age_obs_375
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "220"^^xsd:int ;
         lodcom:refArea             lodcom:angelmodde ;
@@ -547,6 +613,7 @@ lodcom:single_age_obs_375
 lodcom:single_age_obs_50
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1106"^^xsd:int ;
         lodcom:refArea             lodcom:pluggendorf ;
@@ -555,6 +622,7 @@ lodcom:single_age_obs_50
 lodcom:single_age_obs_164
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "1211"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-sued ;
@@ -563,6 +631,7 @@ lodcom:single_age_obs_164
 lodcom:single_age_obs_430
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "89"^^xsd:int ;
         lodcom:refArea             lodcom:amelsbueren ;
@@ -571,6 +640,7 @@ lodcom:single_age_obs_430
 lodcom:single_age_obs_345
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "78"^^xsd:int ;
         lodcom:refArea             lodcom:ost ;
@@ -579,6 +649,7 @@ lodcom:single_age_obs_345
 lodcom:single_age_obs_20
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "122"^^xsd:int ;
         lodcom:refArea             lodcom:dom ;
@@ -587,6 +658,7 @@ lodcom:single_age_obs_20
 lodcom:single_age_obs_134
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "138"^^xsd:int ;
         lodcom:refArea             lodcom:aaseestadt ;
@@ -595,6 +667,7 @@ lodcom:single_age_obs_134
 lodcom:single_age_obs_400
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "108"^^xsd:int ;
         lodcom:refArea             lodcom:berg_fidel ;
@@ -603,6 +676,7 @@ lodcom:single_age_obs_400
 lodcom:single_age_obs_315
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "726"^^xsd:int ;
         lodcom:refArea             lodcom:nord ;
@@ -611,6 +685,7 @@ lodcom:single_age_obs_315
 lodcom:single_age_obs_291
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "172"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-ost ;
@@ -619,6 +694,7 @@ lodcom:single_age_obs_291
 lodcom:single_age_obs_104
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "247"^^xsd:int ;
         lodcom:refArea             lodcom:kreuz ;
@@ -627,6 +703,7 @@ lodcom:single_age_obs_104
 lodcom:single_age_obs_92
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "238"^^xsd:int ;
         lodcom:refArea             lodcom:schlachthof ;
@@ -635,6 +712,7 @@ lodcom:single_age_obs_92
 lodcom:single_age_obs_387
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "713"^^xsd:int ;
         lodcom:refArea             lodcom:suedost ;
@@ -643,6 +721,7 @@ lodcom:single_age_obs_387
 lodcom:single_age_obs_8
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "38"^^xsd:int ;
         lodcom:refArea             lodcom:aegidii ;
@@ -651,6 +730,7 @@ lodcom:single_age_obs_8
 lodcom:single_age_obs_261
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "311"^^xsd:int ;
         lodcom:refArea             lodcom:roxel ;
@@ -659,6 +739,7 @@ lodcom:single_age_obs_261
 lodcom:single_age_obs_62
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "222"^^xsd:int ;
         lodcom:refArea             lodcom:josef ;
@@ -667,6 +748,7 @@ lodcom:single_age_obs_62
 lodcom:single_age_obs_176
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "17"^^xsd:int ;
         lodcom:refArea             lodcom:hafen ;
@@ -675,6 +757,7 @@ lodcom:single_age_obs_176
 lodcom:single_age_obs_442
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "29358"^^xsd:int ;
         lodcom:refArea             lodcom:muenster ;
@@ -683,6 +766,7 @@ lodcom:single_age_obs_442
 lodcom:single_age_obs_357
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "182"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-west ;
@@ -691,6 +775,7 @@ lodcom:single_age_obs_357
 lodcom:single_age_obs_231
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "230"^^xsd:int ;
         lodcom:refArea             lodcom:gievenbeck ;
@@ -699,6 +784,7 @@ lodcom:single_age_obs_231
 lodcom:single_age_obs_32
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "32"^^xsd:int ;
         lodcom:refArea             lodcom:buddenturm ;
@@ -707,6 +793,7 @@ lodcom:single_age_obs_32
 lodcom:single_age_obs_146
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1422"^^xsd:int ;
         lodcom:refArea             lodcom:schuetzenhof ;
@@ -715,6 +802,7 @@ lodcom:single_age_obs_146
 lodcom:single_age_obs_412
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "392"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-mitte ;
@@ -723,6 +811,7 @@ lodcom:single_age_obs_412
 lodcom:single_age_obs_327
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "299"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-ost ;
@@ -731,6 +820,7 @@ lodcom:single_age_obs_327
 lodcom:single_age_obs_201
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "77"^^xsd:int ;
         lodcom:refArea             lodcom:uppenberg ;
@@ -739,6 +829,7 @@ lodcom:single_age_obs_201
 lodcom:single_age_obs_116
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "74"^^xsd:int ;
         lodcom:refArea             lodcom:schloss ;
@@ -747,6 +838,7 @@ lodcom:single_age_obs_116
 lodcom:single_age_obs_399
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "136"^^xsd:int ;
         lodcom:refArea             lodcom:berg_fidel ;
@@ -755,6 +847,7 @@ lodcom:single_age_obs_399
 lodcom:single_age_obs_273
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "525"^^xsd:int ;
         lodcom:refArea             lodcom:west ;
@@ -763,6 +856,7 @@ lodcom:single_age_obs_273
 lodcom:single_age_obs_74
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1640"^^xsd:int ;
         lodcom:refArea             lodcom:hansaplatz ;
@@ -771,6 +865,7 @@ lodcom:single_age_obs_74
 lodcom:single_age_obs_188
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "466"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-mitte ;
@@ -779,6 +874,7 @@ lodcom:single_age_obs_188
 lodcom:single_age_obs_369
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "27"^^xsd:int ;
         lodcom:refArea             lodcom:angelmodde ;
@@ -787,6 +883,7 @@ lodcom:single_age_obs_369
 lodcom:single_age_obs_243
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "242"^^xsd:int ;
         lodcom:refArea             lodcom:mecklenbeck ;
@@ -795,6 +892,7 @@ lodcom:single_age_obs_243
 lodcom:single_age_obs_44
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "415"^^xsd:int ;
         lodcom:refArea             lodcom:altstadt ;
@@ -803,6 +901,7 @@ lodcom:single_age_obs_44
 lodcom:single_age_obs_158
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "160"^^xsd:int ;
         lodcom:refArea             lodcom:dueesberg ;
@@ -811,6 +910,7 @@ lodcom:single_age_obs_158
 lodcom:single_age_obs_424
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "87"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-west ;
@@ -819,6 +919,7 @@ lodcom:single_age_obs_424
 lodcom:single_age_obs_339
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "129"^^xsd:int ;
         lodcom:refArea             lodcom:handorf ;
@@ -827,6 +928,7 @@ lodcom:single_age_obs_339
 lodcom:single_age_obs_213
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "1590"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-nordost ;
@@ -835,6 +937,7 @@ lodcom:single_age_obs_213
 lodcom:single_age_obs_14
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "31"^^xsd:int ;
         lodcom:refArea             lodcom:ueberwasser ;
@@ -843,6 +946,7 @@ lodcom:single_age_obs_14
 lodcom:single_age_obs_128
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "944"^^xsd:int ;
         lodcom:refArea             lodcom:innenstadtring ;
@@ -851,6 +955,7 @@ lodcom:single_age_obs_128
 lodcom:single_age_obs_309
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "91"^^xsd:int ;
         lodcom:refArea             lodcom:sprakel ;
@@ -859,6 +964,7 @@ lodcom:single_age_obs_309
 lodcom:single_age_obs_370
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "248"^^xsd:int ;
         lodcom:refArea             lodcom:angelmodde ;
@@ -867,6 +973,7 @@ lodcom:single_age_obs_370
 lodcom:single_age_obs_285
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "393"^^xsd:int ;
         lodcom:refArea             lodcom:coerde ;
@@ -875,6 +982,7 @@ lodcom:single_age_obs_285
 lodcom:single_age_obs_86
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "184"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-west ;
@@ -883,6 +991,7 @@ lodcom:single_age_obs_86
 lodcom:single_age_obs_340
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "159"^^xsd:int ;
         lodcom:refArea             lodcom:handorf ;
@@ -891,6 +1000,7 @@ lodcom:single_age_obs_340
 lodcom:single_age_obs_255
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "116"^^xsd:int ;
         lodcom:refArea             lodcom:albachten ;
@@ -899,6 +1009,7 @@ lodcom:single_age_obs_255
 lodcom:single_age_obs_56
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "94"^^xsd:int ;
         lodcom:refArea             lodcom:pluggendorf ;
@@ -907,6 +1018,7 @@ lodcom:single_age_obs_56
 lodcom:single_age_obs_436
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "1023"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup ;
@@ -915,6 +1027,7 @@ lodcom:single_age_obs_436
 lodcom:single_age_obs_310
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "60"^^xsd:int ;
         lodcom:refArea             lodcom:sprakel ;
@@ -923,6 +1036,7 @@ lodcom:single_age_obs_310
 lodcom:single_age_obs_225
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "229"^^xsd:int ;
         lodcom:refArea             lodcom:gievenbeck ;
@@ -931,6 +1045,7 @@ lodcom:single_age_obs_225
 lodcom:single_age_obs_26
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "646"^^xsd:int ;
         lodcom:refArea             lodcom:buddenturm ;
@@ -939,6 +1054,7 @@ lodcom:single_age_obs_26
 lodcom:single_age_obs_406
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "155"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-ost ;
@@ -947,6 +1063,7 @@ lodcom:single_age_obs_406
 lodcom:single_age_obs_382
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "245"^^xsd:int ;
         lodcom:refArea             lodcom:wolbeck ;
@@ -955,6 +1072,7 @@ lodcom:single_age_obs_382
 lodcom:single_age_obs_3
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "121"^^xsd:int ;
         lodcom:refArea             lodcom:aegidii ;
@@ -963,6 +1081,7 @@ lodcom:single_age_obs_3
 lodcom:single_age_obs_297
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "40"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-west ;
@@ -971,6 +1090,7 @@ lodcom:single_age_obs_297
 lodcom:single_age_obs_98
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "2141"^^xsd:int ;
         lodcom:refArea             lodcom:kreuz ;
@@ -979,6 +1099,7 @@ lodcom:single_age_obs_98
 lodcom:single_age_obs_171
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "136"^^xsd:int ;
         lodcom:refArea             lodcom:hafen ;
@@ -987,6 +1108,7 @@ lodcom:single_age_obs_171
 lodcom:single_age_obs_352
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "512"^^xsd:int ;
         lodcom:refArea             lodcom:ost ;
@@ -995,6 +1117,7 @@ lodcom:single_age_obs_352
 lodcom:single_age_obs_267
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "219"^^xsd:int ;
         lodcom:refArea             lodcom:nienberge ;
@@ -1003,6 +1126,7 @@ lodcom:single_age_obs_267
 lodcom:single_age_obs_68
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "66"^^xsd:int ;
         lodcom:refArea             lodcom:bahnhof ;
@@ -1011,6 +1135,7 @@ lodcom:single_age_obs_68
 lodcom:single_age_obs_141
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "408"^^xsd:int ;
         lodcom:refArea             lodcom:geist ;
@@ -1019,6 +1144,7 @@ lodcom:single_age_obs_141
 lodcom:single_age_obs_448
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "5775"^^xsd:int ;
         lodcom:refArea             lodcom:muenster ;
@@ -1027,6 +1153,7 @@ lodcom:single_age_obs_448
 lodcom:single_age_obs_322
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "415"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-ost ;
@@ -1035,6 +1162,7 @@ lodcom:single_age_obs_322
 lodcom:single_age_obs_237
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "155"^^xsd:int ;
         lodcom:refArea             lodcom:sentrup ;
@@ -1043,6 +1171,7 @@ lodcom:single_age_obs_237
 lodcom:single_age_obs_38
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "34"^^xsd:int ;
         lodcom:refArea             lodcom:martini ;
@@ -1051,6 +1180,7 @@ lodcom:single_age_obs_38
 lodcom:single_age_obs_111
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "64"^^xsd:int ;
         lodcom:refArea             lodcom:neutor ;
@@ -1059,6 +1189,7 @@ lodcom:single_age_obs_111
 lodcom:single_age_obs_418
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "217"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-west ;
@@ -1067,6 +1198,7 @@ lodcom:single_age_obs_418
 lodcom:single_age_obs_394
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "219"^^xsd:int ;
         lodcom:refArea             lodcom:berg_fidel ;
@@ -1075,6 +1207,7 @@ lodcom:single_age_obs_394
 lodcom:single_age_obs_207
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "185"^^xsd:int ;
         lodcom:refArea             lodcom:uppenberg ;
@@ -1083,6 +1216,7 @@ lodcom:single_age_obs_207
 lodcom:single_age_obs_183
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "128"^^xsd:int ;
         lodcom:refArea             lodcom:herz-jesu ;
@@ -1091,6 +1225,7 @@ lodcom:single_age_obs_183
 lodcom:single_age_obs_364
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "185"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-ost ;
@@ -1099,6 +1234,7 @@ lodcom:single_age_obs_364
 lodcom:single_age_obs_279
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "1040"^^xsd:int ;
         lodcom:refArea             lodcom:west ;
@@ -1107,6 +1243,7 @@ lodcom:single_age_obs_279
 lodcom:single_age_obs_153
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "43"^^xsd:int ;
         lodcom:refArea             lodcom:dueesberg ;
@@ -1115,6 +1252,7 @@ lodcom:single_age_obs_153
 lodcom:single_age_obs_334
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "81"^^xsd:int ;
         lodcom:refArea             lodcom:gelmer-dyckburg ;
@@ -1123,6 +1261,7 @@ lodcom:single_age_obs_334
 lodcom:single_age_obs_249
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "11"^^xsd:int ;
         lodcom:refArea             lodcom:albachten ;
@@ -1131,6 +1270,7 @@ lodcom:single_age_obs_249
 lodcom:single_age_obs_123
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "4732"^^xsd:int ;
         lodcom:refArea             lodcom:innenstadtring ;
@@ -1139,6 +1279,7 @@ lodcom:single_age_obs_123
 lodcom:single_age_obs_304
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "186"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-west ;
@@ -1147,6 +1288,7 @@ lodcom:single_age_obs_304
 lodcom:single_age_obs_219
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "9372"^^xsd:int ;
         lodcom:refArea             lodcom:mitte ;
@@ -1155,6 +1297,7 @@ lodcom:single_age_obs_219
 lodcom:single_age_obs_280
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "799"^^xsd:int ;
         lodcom:refArea             lodcom:west ;
@@ -1163,6 +1306,7 @@ lodcom:single_age_obs_280
 lodcom:single_age_obs_81
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "72"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-west ;
@@ -1171,6 +1315,7 @@ lodcom:single_age_obs_81
 lodcom:single_age_obs_195
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "284"^^xsd:int ;
         lodcom:refArea             lodcom:rumphorst ;
@@ -1179,6 +1324,7 @@ lodcom:single_age_obs_195
 lodcom:single_age_obs_376
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "177"^^xsd:int ;
         lodcom:refArea             lodcom:angelmodde ;
@@ -1187,6 +1333,7 @@ lodcom:single_age_obs_376
 lodcom:single_age_obs_250
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "91"^^xsd:int ;
         lodcom:refArea             lodcom:albachten ;
@@ -1195,6 +1342,7 @@ lodcom:single_age_obs_250
 lodcom:single_age_obs_51
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "436"^^xsd:int ;
         lodcom:refArea             lodcom:pluggendorf ;
@@ -1203,6 +1351,7 @@ lodcom:single_age_obs_51
 lodcom:single_age_obs_165
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "1224"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-sued ;
@@ -1211,6 +1360,7 @@ lodcom:single_age_obs_165
 lodcom:single_age_obs_431
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "116"^^xsd:int ;
         lodcom:refArea             lodcom:amelsbueren ;
@@ -1219,6 +1369,7 @@ lodcom:single_age_obs_431
 lodcom:single_age_obs_346
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "636"^^xsd:int ;
         lodcom:refArea             lodcom:ost ;
@@ -1227,6 +1378,7 @@ lodcom:single_age_obs_346
 lodcom:single_age_obs_220
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "5591"^^xsd:int ;
         lodcom:refArea             lodcom:mitte ;
@@ -1235,6 +1387,7 @@ lodcom:single_age_obs_220
 lodcom:single_age_obs_21
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "103"^^xsd:int ;
         lodcom:refArea             lodcom:dom ;
@@ -1243,6 +1396,7 @@ lodcom:single_age_obs_21
 lodcom:single_age_obs_135
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "182"^^xsd:int ;
         lodcom:refArea             lodcom:aaseestadt ;
@@ -1251,6 +1405,7 @@ lodcom:single_age_obs_135
 lodcom:single_age_obs_401
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "26"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-ost ;
@@ -1259,6 +1414,7 @@ lodcom:single_age_obs_401
 lodcom:single_age_obs_316
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "782"^^xsd:int ;
         lodcom:refArea             lodcom:nord ;
@@ -1267,6 +1423,7 @@ lodcom:single_age_obs_316
 lodcom:single_age_obs_105
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "66"^^xsd:int ;
         lodcom:refArea             lodcom:neutor ;
@@ -1275,6 +1432,7 @@ lodcom:single_age_obs_105
 lodcom:single_age_obs_292
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "187"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-ost ;
@@ -1283,6 +1441,7 @@ lodcom:single_age_obs_292
 lodcom:single_age_obs_93
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "258"^^xsd:int ;
         lodcom:refArea             lodcom:schlachthof ;
@@ -1291,6 +1450,7 @@ lodcom:single_age_obs_93
 lodcom:single_age_obs_388
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "812"^^xsd:int ;
         lodcom:refArea             lodcom:suedost ;
@@ -1299,6 +1459,7 @@ lodcom:single_age_obs_388
 lodcom:single_age_obs_262
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "207"^^xsd:int ;
         lodcom:refArea             lodcom:roxel ;
@@ -1307,6 +1468,7 @@ lodcom:single_age_obs_262
 lodcom:single_age_obs_9
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "35"^^xsd:int ;
         lodcom:refArea             lodcom:ueberwasser ;
@@ -1315,6 +1477,7 @@ lodcom:single_age_obs_9
 lodcom:single_age_obs_63
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "195"^^xsd:int ;
         lodcom:refArea             lodcom:josef ;
@@ -1323,6 +1486,7 @@ lodcom:single_age_obs_63
 lodcom:single_age_obs_177
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "30"^^xsd:int ;
         lodcom:refArea             lodcom:herz-jesu ;
@@ -1331,6 +1495,7 @@ lodcom:single_age_obs_177
 lodcom:single_age_obs_443
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "14210"^^xsd:int ;
         lodcom:refArea             lodcom:muenster ;
@@ -1339,6 +1504,7 @@ lodcom:single_age_obs_443
 lodcom:single_age_obs_358
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "113"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-west ;
@@ -1347,6 +1513,7 @@ lodcom:single_age_obs_358
 lodcom:single_age_obs_232
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "192"^^xsd:int ;
         lodcom:refArea             lodcom:gievenbeck ;
@@ -1355,6 +1522,7 @@ lodcom:single_age_obs_232
 lodcom:single_age_obs_33
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "37"^^xsd:int ;
         lodcom:refArea             lodcom:martini ;
@@ -1363,6 +1531,7 @@ lodcom:single_age_obs_33
 lodcom:single_age_obs_147
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "752"^^xsd:int ;
         lodcom:refArea             lodcom:schuetzenhof ;
@@ -1371,6 +1540,7 @@ lodcom:single_age_obs_147
 lodcom:single_age_obs_413
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "446"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-mitte ;
@@ -1379,6 +1549,7 @@ lodcom:single_age_obs_413
 lodcom:single_age_obs_328
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "294"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-ost ;
@@ -1387,6 +1558,7 @@ lodcom:single_age_obs_328
 lodcom:single_age_obs_202
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1181"^^xsd:int ;
         lodcom:refArea             lodcom:uppenberg ;
@@ -1395,6 +1567,7 @@ lodcom:single_age_obs_202
 lodcom:single_age_obs_117
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "106"^^xsd:int ;
         lodcom:refArea             lodcom:schloss ;
@@ -1403,6 +1576,7 @@ lodcom:single_age_obs_117
 lodcom:single_age_obs_274
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "5839"^^xsd:int ;
         lodcom:refArea             lodcom:west ;
@@ -1411,6 +1585,7 @@ lodcom:single_age_obs_274
 lodcom:single_age_obs_75
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "880"^^xsd:int ;
         lodcom:refArea             lodcom:hansaplatz ;
@@ -1419,6 +1594,7 @@ lodcom:single_age_obs_75
 lodcom:single_age_obs_189
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "594"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-mitte ;
@@ -1427,6 +1603,7 @@ lodcom:single_age_obs_189
 lodcom:single_age_obs_244
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "250"^^xsd:int ;
         lodcom:refArea             lodcom:mecklenbeck ;
@@ -1435,6 +1612,7 @@ lodcom:single_age_obs_244
 lodcom:single_age_obs_45
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "338"^^xsd:int ;
         lodcom:refArea             lodcom:altstadt ;
@@ -1443,6 +1621,7 @@ lodcom:single_age_obs_45
 lodcom:single_age_obs_159
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "157"^^xsd:int ;
         lodcom:refArea             lodcom:dueesberg ;
@@ -1451,6 +1630,7 @@ lodcom:single_age_obs_159
 lodcom:single_age_obs_425
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "8"^^xsd:int ;
         lodcom:refArea             lodcom:amelsbueren ;
@@ -1459,6 +1639,7 @@ lodcom:single_age_obs_425
 lodcom:single_age_obs_214
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "884"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-nordost ;
@@ -1467,6 +1648,7 @@ lodcom:single_age_obs_214
 lodcom:single_age_obs_15
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "31"^^xsd:int ;
         lodcom:refArea             lodcom:ueberwasser ;
@@ -1475,6 +1657,7 @@ lodcom:single_age_obs_15
 lodcom:single_age_obs_129
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "30"^^xsd:int ;
         lodcom:refArea             lodcom:aaseestadt ;
@@ -1483,6 +1666,7 @@ lodcom:single_age_obs_129
 lodcom:single_age_obs_190
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "320"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-mitte ;
@@ -1491,6 +1675,7 @@ lodcom:single_age_obs_190
 lodcom:single_age_obs_371
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "220"^^xsd:int ;
         lodcom:refArea             lodcom:angelmodde ;
@@ -1499,6 +1684,7 @@ lodcom:single_age_obs_371
 lodcom:single_age_obs_286
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "251"^^xsd:int ;
         lodcom:refArea             lodcom:coerde ;
@@ -1507,6 +1693,7 @@ lodcom:single_age_obs_286
 lodcom:single_age_obs_87
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "127"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-west ;
@@ -1515,6 +1702,7 @@ lodcom:single_age_obs_87
 lodcom:single_age_obs_160
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "172"^^xsd:int ;
         lodcom:refArea             lodcom:dueesberg ;
@@ -1523,6 +1711,7 @@ lodcom:single_age_obs_160
 lodcom:single_age_obs_341
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "208"^^xsd:int ;
         lodcom:refArea             lodcom:handorf ;
@@ -1531,6 +1720,7 @@ lodcom:single_age_obs_341
 lodcom:single_age_obs_256
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "82"^^xsd:int ;
         lodcom:refArea             lodcom:albachten ;
@@ -1539,6 +1729,7 @@ lodcom:single_age_obs_256
 lodcom:single_age_obs_57
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "101"^^xsd:int ;
         lodcom:refArea             lodcom:josef ;
@@ -1547,6 +1738,7 @@ lodcom:single_age_obs_57
 lodcom:single_age_obs_130
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "466"^^xsd:int ;
         lodcom:refArea             lodcom:aaseestadt ;
@@ -1555,6 +1747,7 @@ lodcom:single_age_obs_130
 lodcom:single_age_obs_437
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "1230"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup ;
@@ -1563,6 +1756,7 @@ lodcom:single_age_obs_437
 lodcom:single_age_obs_311
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "64"^^xsd:int ;
         lodcom:refArea             lodcom:sprakel ;
@@ -1571,6 +1765,7 @@ lodcom:single_age_obs_311
 lodcom:single_age_obs_226
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "2624"^^xsd:int ;
         lodcom:refArea             lodcom:gievenbeck ;
@@ -1579,6 +1774,7 @@ lodcom:single_age_obs_226
 lodcom:single_age_obs_27
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "184"^^xsd:int ;
         lodcom:refArea             lodcom:buddenturm ;
@@ -1587,6 +1783,7 @@ lodcom:single_age_obs_27
 lodcom:single_age_obs_100
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "593"^^xsd:int ;
         lodcom:refArea             lodcom:kreuz ;
@@ -1595,6 +1792,7 @@ lodcom:single_age_obs_100
 lodcom:single_age_obs_407
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "197"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-ost ;
@@ -1603,6 +1801,7 @@ lodcom:single_age_obs_407
 lodcom:single_age_obs_383
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "270"^^xsd:int ;
         lodcom:refArea             lodcom:wolbeck ;
@@ -1611,6 +1810,7 @@ lodcom:single_age_obs_383
 lodcom:single_age_obs_4
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "64"^^xsd:int ;
         lodcom:refArea             lodcom:aegidii ;
@@ -1619,6 +1819,7 @@ lodcom:single_age_obs_4
 lodcom:single_age_obs_298
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "331"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-west ;
@@ -1627,6 +1828,7 @@ lodcom:single_age_obs_298
 lodcom:single_age_obs_99
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "987"^^xsd:int ;
         lodcom:refArea             lodcom:kreuz ;
@@ -1635,6 +1837,7 @@ lodcom:single_age_obs_99
 lodcom:single_age_obs_172
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "67"^^xsd:int ;
         lodcom:refArea             lodcom:hafen ;
@@ -1643,6 +1846,7 @@ lodcom:single_age_obs_172
 lodcom:single_age_obs_353
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "28"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-west ;
@@ -1651,6 +1855,7 @@ lodcom:single_age_obs_353
 lodcom:single_age_obs_268
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "213"^^xsd:int ;
         lodcom:refArea             lodcom:nienberge ;
@@ -1659,6 +1864,7 @@ lodcom:single_age_obs_268
 lodcom:single_age_obs_69
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "45"^^xsd:int ;
         lodcom:refArea             lodcom:bahnhof ;
@@ -1667,6 +1873,7 @@ lodcom:single_age_obs_69
 lodcom:single_age_obs_142
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "276"^^xsd:int ;
         lodcom:refArea             lodcom:geist ;
@@ -1675,6 +1882,7 @@ lodcom:single_age_obs_142
 lodcom:single_age_obs_323
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "378"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-ost ;
@@ -1683,6 +1891,7 @@ lodcom:single_age_obs_323
 lodcom:single_age_obs_238
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "117"^^xsd:int ;
         lodcom:refArea             lodcom:sentrup ;
@@ -1691,6 +1900,7 @@ lodcom:single_age_obs_238
 lodcom:single_age_obs_39
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "54"^^xsd:int ;
         lodcom:refArea             lodcom:martini ;
@@ -1699,6 +1909,7 @@ lodcom:single_age_obs_39
 lodcom:single_age_obs_112
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "46"^^xsd:int ;
         lodcom:refArea             lodcom:neutor ;
@@ -1707,6 +1918,7 @@ lodcom:single_age_obs_112
 lodcom:single_age_obs_419
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "212"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-west ;
@@ -1715,6 +1927,7 @@ lodcom:single_age_obs_419
 lodcom:single_age_obs_395
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "162"^^xsd:int ;
         lodcom:refArea             lodcom:berg_fidel ;
@@ -1723,6 +1936,7 @@ lodcom:single_age_obs_395
 lodcom:single_age_obs_208
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "184"^^xsd:int ;
         lodcom:refArea             lodcom:uppenberg ;
@@ -1731,6 +1945,7 @@ lodcom:single_age_obs_208
 lodcom:single_age_obs_70
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "18"^^xsd:int ;
         lodcom:refArea             lodcom:bahnhof ;
@@ -1739,6 +1954,7 @@ lodcom:single_age_obs_70
 lodcom:single_age_obs_184
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "95"^^xsd:int ;
         lodcom:refArea             lodcom:herz-jesu ;
@@ -1747,6 +1963,7 @@ lodcom:single_age_obs_184
 lodcom:single_age_obs_365
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "189"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-ost ;
@@ -1755,6 +1972,7 @@ lodcom:single_age_obs_365
 lodcom:single_age_obs_40
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "36"^^xsd:int ;
         lodcom:refArea             lodcom:martini ;
@@ -1763,6 +1981,7 @@ lodcom:single_age_obs_40
 lodcom:single_age_obs_154
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "430"^^xsd:int ;
         lodcom:refArea             lodcom:dueesberg ;
@@ -1771,6 +1990,7 @@ lodcom:single_age_obs_154
 lodcom:single_age_obs_420
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "262"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-west ;
@@ -1779,6 +1999,7 @@ lodcom:single_age_obs_420
 lodcom:single_age_obs_335
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "70"^^xsd:int ;
         lodcom:refArea             lodcom:gelmer-dyckburg ;
@@ -1787,6 +2008,7 @@ lodcom:single_age_obs_335
 lodcom:single_age_obs_10
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "437"^^xsd:int ;
         lodcom:refArea             lodcom:ueberwasser ;
@@ -1795,6 +2017,7 @@ lodcom:single_age_obs_10
 lodcom:single_age_obs_124
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "2499"^^xsd:int ;
         lodcom:refArea             lodcom:innenstadtring ;
@@ -1803,6 +2026,7 @@ lodcom:single_age_obs_124
 lodcom:single_age_obs_305
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "8"^^xsd:int ;
         lodcom:refArea             lodcom:sprakel ;
@@ -1811,6 +2035,7 @@ lodcom:single_age_obs_305
 lodcom:single_age_obs_281
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "48"^^xsd:int ;
         lodcom:refArea             lodcom:coerde ;
@@ -1819,6 +2044,7 @@ lodcom:single_age_obs_281
 lodcom:single_age_obs_82
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1177"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-west ;
@@ -1827,6 +2053,7 @@ lodcom:single_age_obs_82
 lodcom:single_age_obs_196
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "268"^^xsd:int ;
         lodcom:refArea             lodcom:rumphorst ;
@@ -1835,6 +2062,7 @@ lodcom:single_age_obs_196
 lodcom:single_age_obs_377
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "16"^^xsd:int ;
         lodcom:refArea             lodcom:wolbeck ;
@@ -1843,6 +2071,7 @@ lodcom:single_age_obs_377
 lodcom:single_age_obs_251
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "75"^^xsd:int ;
         lodcom:refArea             lodcom:albachten ;
@@ -1851,6 +2080,7 @@ lodcom:single_age_obs_251
 lodcom:single_age_obs_52
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "183"^^xsd:int ;
         lodcom:refArea             lodcom:pluggendorf ;
@@ -1859,6 +2089,7 @@ lodcom:single_age_obs_52
 lodcom:single_age_obs_166
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "777"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-sued ;
@@ -1867,6 +2098,7 @@ lodcom:single_age_obs_166
 lodcom:single_age_obs_432
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "86"^^xsd:int ;
         lodcom:refArea             lodcom:amelsbueren ;
@@ -1875,6 +2107,7 @@ lodcom:single_age_obs_432
 lodcom:single_age_obs_347
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "587"^^xsd:int ;
         lodcom:refArea             lodcom:ost ;
@@ -1883,6 +2116,7 @@ lodcom:single_age_obs_347
 lodcom:single_age_obs_221
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "5662"^^xsd:int ;
         lodcom:refArea             lodcom:mitte ;
@@ -1891,6 +2125,7 @@ lodcom:single_age_obs_221
 lodcom:single_age_obs_22
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "61"^^xsd:int ;
         lodcom:refArea             lodcom:dom ;
@@ -1899,6 +2134,7 @@ lodcom:single_age_obs_22
 lodcom:single_age_obs_136
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "187"^^xsd:int ;
         lodcom:refArea             lodcom:aaseestadt ;
@@ -1907,6 +2143,7 @@ lodcom:single_age_obs_136
 lodcom:single_age_obs_402
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "129"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-ost ;
@@ -1915,6 +2152,7 @@ lodcom:single_age_obs_402
 lodcom:single_age_obs_317
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "1079"^^xsd:int ;
         lodcom:refArea             lodcom:nord ;
@@ -1923,6 +2161,7 @@ lodcom:single_age_obs_317
 lodcom:single_age_obs_293
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "245"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-ost ;
@@ -1931,6 +2170,7 @@ lodcom:single_age_obs_293
 lodcom:single_age_obs_106
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1213"^^xsd:int ;
         lodcom:refArea             lodcom:neutor ;
@@ -1939,6 +2179,7 @@ lodcom:single_age_obs_106
 lodcom:single_age_obs_94
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "204"^^xsd:int ;
         lodcom:refArea             lodcom:schlachthof ;
@@ -1947,6 +2188,7 @@ lodcom:single_age_obs_94
 lodcom:single_age_obs_389
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "961"^^xsd:int ;
         lodcom:refArea             lodcom:suedost ;
@@ -1955,6 +2197,7 @@ lodcom:single_age_obs_389
 lodcom:single_age_obs_263
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "209"^^xsd:int ;
         lodcom:refArea             lodcom:roxel ;
@@ -1963,6 +2206,7 @@ lodcom:single_age_obs_263
 lodcom:single_age_obs_64
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "185"^^xsd:int ;
         lodcom:refArea             lodcom:josef ;
@@ -1971,6 +2215,7 @@ lodcom:single_age_obs_64
 lodcom:single_age_obs_178
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "696"^^xsd:int ;
         lodcom:refArea             lodcom:herz-jesu ;
@@ -1979,6 +2224,7 @@ lodcom:single_age_obs_178
 lodcom:single_age_obs_444
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "10269"^^xsd:int ;
         lodcom:refArea             lodcom:muenster ;
@@ -1987,6 +2233,7 @@ lodcom:single_age_obs_444
 lodcom:single_age_obs_359
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "91"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-west ;
@@ -1995,6 +2242,7 @@ lodcom:single_age_obs_359
 lodcom:single_age_obs_233
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "127"^^xsd:int ;
         lodcom:refArea             lodcom:sentrup ;
@@ -2003,6 +2251,7 @@ lodcom:single_age_obs_233
 lodcom:single_age_obs_34
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "363"^^xsd:int ;
         lodcom:refArea             lodcom:martini ;
@@ -2011,6 +2260,7 @@ lodcom:single_age_obs_34
 lodcom:single_age_obs_148
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "416"^^xsd:int ;
         lodcom:refArea             lodcom:schuetzenhof ;
@@ -2019,6 +2269,7 @@ lodcom:single_age_obs_148
 lodcom:single_age_obs_414
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "328"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-mitte ;
@@ -2027,6 +2278,7 @@ lodcom:single_age_obs_414
 lodcom:single_age_obs_329
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "7"^^xsd:int ;
         lodcom:refArea             lodcom:gelmer-dyckburg ;
@@ -2035,6 +2287,7 @@ lodcom:single_age_obs_329
 lodcom:single_age_obs_390
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "745"^^xsd:int ;
         lodcom:refArea             lodcom:suedost ;
@@ -2043,6 +2296,7 @@ lodcom:single_age_obs_390
 lodcom:single_age_obs_203
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "517"^^xsd:int ;
         lodcom:refArea             lodcom:uppenberg ;
@@ -2051,6 +2305,7 @@ lodcom:single_age_obs_203
 lodcom:single_age_obs_118
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "59"^^xsd:int ;
         lodcom:refArea             lodcom:schloss ;
@@ -2059,6 +2314,7 @@ lodcom:single_age_obs_118
 lodcom:single_age_obs_360
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "85"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-west ;
@@ -2067,6 +2323,7 @@ lodcom:single_age_obs_360
 lodcom:single_age_obs_275
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "1872"^^xsd:int ;
         lodcom:refArea             lodcom:west ;
@@ -2075,6 +2332,7 @@ lodcom:single_age_obs_275
 lodcom:single_age_obs_76
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "415"^^xsd:int ;
         lodcom:refArea             lodcom:hansaplatz ;
@@ -2083,6 +2341,7 @@ lodcom:single_age_obs_76
 lodcom:single_age_obs_330
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "87"^^xsd:int ;
         lodcom:refArea             lodcom:gelmer-dyckburg ;
@@ -2091,6 +2350,7 @@ lodcom:single_age_obs_330
 lodcom:single_age_obs_245
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "325"^^xsd:int ;
         lodcom:refArea             lodcom:mecklenbeck ;
@@ -2099,6 +2359,7 @@ lodcom:single_age_obs_245
 lodcom:single_age_obs_46
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "225"^^xsd:int ;
         lodcom:refArea             lodcom:altstadt ;
@@ -2107,6 +2368,7 @@ lodcom:single_age_obs_46
 lodcom:single_age_obs_426
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "98"^^xsd:int ;
         lodcom:refArea             lodcom:amelsbueren ;
@@ -2115,6 +2377,7 @@ lodcom:single_age_obs_426
 lodcom:single_age_obs_300
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "238"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-west ;
@@ -2123,6 +2386,7 @@ lodcom:single_age_obs_300
 lodcom:single_age_obs_215
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "836"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-nordost ;
@@ -2131,6 +2395,7 @@ lodcom:single_age_obs_215
 lodcom:single_age_obs_16
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "32"^^xsd:int ;
         lodcom:refArea             lodcom:ueberwasser ;
@@ -2139,6 +2404,7 @@ lodcom:single_age_obs_16
 lodcom:single_age_obs_191
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "310"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-mitte ;
@@ -2147,6 +2413,7 @@ lodcom:single_age_obs_191
 lodcom:single_age_obs_372
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "228"^^xsd:int ;
         lodcom:refArea             lodcom:angelmodde ;
@@ -2155,6 +2422,7 @@ lodcom:single_age_obs_372
 lodcom:single_age_obs_287
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "259"^^xsd:int ;
         lodcom:refArea             lodcom:coerde ;
@@ -2163,6 +2431,7 @@ lodcom:single_age_obs_287
 lodcom:single_age_obs_88
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "93"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-west ;
@@ -2171,6 +2440,7 @@ lodcom:single_age_obs_88
 lodcom:single_age_obs_161
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "203"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-sued ;
@@ -2179,6 +2449,7 @@ lodcom:single_age_obs_161
 lodcom:single_age_obs_342
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "149"^^xsd:int ;
         lodcom:refArea             lodcom:handorf ;
@@ -2187,6 +2458,7 @@ lodcom:single_age_obs_342
 lodcom:single_age_obs_257
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "35"^^xsd:int ;
         lodcom:refArea             lodcom:roxel ;
@@ -2195,6 +2467,7 @@ lodcom:single_age_obs_257
 lodcom:single_age_obs_58
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1993"^^xsd:int ;
         lodcom:refArea             lodcom:josef ;
@@ -2203,6 +2476,7 @@ lodcom:single_age_obs_58
 lodcom:single_age_obs_131
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "227"^^xsd:int ;
         lodcom:refArea             lodcom:aaseestadt ;
@@ -2211,6 +2485,7 @@ lodcom:single_age_obs_131
 lodcom:single_age_obs_438
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "938"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup ;
@@ -2219,6 +2494,7 @@ lodcom:single_age_obs_438
 lodcom:single_age_obs_312
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "60"^^xsd:int ;
         lodcom:refArea             lodcom:sprakel ;
@@ -2227,6 +2503,7 @@ lodcom:single_age_obs_312
 lodcom:single_age_obs_227
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "738"^^xsd:int ;
         lodcom:refArea             lodcom:gievenbeck ;
@@ -2235,6 +2512,7 @@ lodcom:single_age_obs_227
 lodcom:single_age_obs_28
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "111"^^xsd:int ;
         lodcom:refArea             lodcom:buddenturm ;
@@ -2243,6 +2521,7 @@ lodcom:single_age_obs_28
 lodcom:single_age_obs_101
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "647"^^xsd:int ;
         lodcom:refArea             lodcom:kreuz ;
@@ -2251,6 +2530,7 @@ lodcom:single_age_obs_101
 lodcom:single_age_obs_408
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "117"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-ost ;
@@ -2259,6 +2539,7 @@ lodcom:single_age_obs_408
 lodcom:single_age_obs_384
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "164"^^xsd:int ;
         lodcom:refArea             lodcom:wolbeck ;
@@ -2267,6 +2548,7 @@ lodcom:single_age_obs_384
 lodcom:single_age_obs_5
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "52"^^xsd:int ;
         lodcom:refArea             lodcom:aegidii ;
@@ -2275,6 +2557,7 @@ lodcom:single_age_obs_5
 lodcom:single_age_obs_299
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "233"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-west ;
@@ -2283,6 +2566,7 @@ lodcom:single_age_obs_299
 lodcom:single_age_obs_173
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "44"^^xsd:int ;
         lodcom:refArea             lodcom:hafen ;
@@ -2291,6 +2575,7 @@ lodcom:single_age_obs_173
 lodcom:single_age_obs_354
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "263"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-west ;
@@ -2299,6 +2584,7 @@ lodcom:single_age_obs_354
 lodcom:single_age_obs_269
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "255"^^xsd:int ;
         lodcom:refArea             lodcom:nienberge ;
@@ -2307,6 +2593,7 @@ lodcom:single_age_obs_269
 lodcom:single_age_obs_143
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "235"^^xsd:int ;
         lodcom:refArea             lodcom:geist ;
@@ -2315,6 +2602,7 @@ lodcom:single_age_obs_143
 lodcom:single_age_obs_324
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "363"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-ost ;
@@ -2323,6 +2611,7 @@ lodcom:single_age_obs_324
 lodcom:single_age_obs_239
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "104"^^xsd:int ;
         lodcom:refArea             lodcom:sentrup ;
@@ -2331,6 +2620,7 @@ lodcom:single_age_obs_239
 lodcom:single_age_obs_113
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "29"^^xsd:int ;
         lodcom:refArea             lodcom:schloss ;
@@ -2339,6 +2629,7 @@ lodcom:single_age_obs_113
 lodcom:single_age_obs_396
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "133"^^xsd:int ;
         lodcom:refArea             lodcom:berg_fidel ;
@@ -2347,6 +2638,7 @@ lodcom:single_age_obs_396
 lodcom:single_age_obs_209
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "218"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-nordost ;
@@ -2355,6 +2647,7 @@ lodcom:single_age_obs_209
 lodcom:single_age_obs_270
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "145"^^xsd:int ;
         lodcom:refArea             lodcom:nienberge ;
@@ -2363,6 +2656,7 @@ lodcom:single_age_obs_270
 lodcom:single_age_obs_71
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "19"^^xsd:int ;
         lodcom:refArea             lodcom:bahnhof ;
@@ -2371,6 +2665,7 @@ lodcom:single_age_obs_71
 lodcom:single_age_obs_185
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "59"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-mitte ;
@@ -2379,6 +2674,7 @@ lodcom:single_age_obs_185
 lodcom:single_age_obs_366
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "154"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-ost ;
@@ -2387,6 +2683,7 @@ lodcom:single_age_obs_366
 lodcom:single_age_obs_240
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "126"^^xsd:int ;
         lodcom:refArea             lodcom:sentrup ;
@@ -2395,6 +2692,7 @@ lodcom:single_age_obs_240
 lodcom:single_age_obs_41
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "152"^^xsd:int ;
         lodcom:refArea             lodcom:altstadt ;
@@ -2403,6 +2701,7 @@ lodcom:single_age_obs_41
 lodcom:single_age_obs_155
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "271"^^xsd:int ;
         lodcom:refArea             lodcom:dueesberg ;
@@ -2411,6 +2710,7 @@ lodcom:single_age_obs_155
 lodcom:single_age_obs_421
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "318"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-west ;
@@ -2419,6 +2719,7 @@ lodcom:single_age_obs_421
 lodcom:single_age_obs_336
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "50"^^xsd:int ;
         lodcom:refArea             lodcom:gelmer-dyckburg ;
@@ -2427,6 +2728,7 @@ lodcom:single_age_obs_336
 lodcom:single_age_obs_210
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "3743"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-nordost ;
@@ -2435,6 +2737,7 @@ lodcom:single_age_obs_210
 lodcom:single_age_obs_11
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "114"^^xsd:int ;
         lodcom:refArea             lodcom:ueberwasser ;
@@ -2443,6 +2746,7 @@ lodcom:single_age_obs_11
 lodcom:single_age_obs_125
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "2510"^^xsd:int ;
         lodcom:refArea             lodcom:innenstadtring ;
@@ -2451,6 +2755,7 @@ lodcom:single_age_obs_125
 lodcom:single_age_obs_306
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "57"^^xsd:int ;
         lodcom:refArea             lodcom:sprakel ;
@@ -2459,6 +2764,7 @@ lodcom:single_age_obs_306
 lodcom:single_age_obs_282
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "264"^^xsd:int ;
         lodcom:refArea             lodcom:coerde ;
@@ -2467,6 +2773,7 @@ lodcom:single_age_obs_282
 lodcom:single_age_obs_83
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "594"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-west ;
@@ -2475,6 +2782,7 @@ lodcom:single_age_obs_83
 lodcom:single_age_obs_197
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "323"^^xsd:int ;
         lodcom:refArea             lodcom:rumphorst ;
@@ -2483,6 +2791,7 @@ lodcom:single_age_obs_197
 lodcom:single_age_obs_378
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "177"^^xsd:int ;
         lodcom:refArea             lodcom:wolbeck ;
@@ -2491,6 +2800,7 @@ lodcom:single_age_obs_378
 lodcom:single_age_obs_252
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "105"^^xsd:int ;
         lodcom:refArea             lodcom:albachten ;
@@ -2499,6 +2809,7 @@ lodcom:single_age_obs_252
 lodcom:single_age_obs_53
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "193"^^xsd:int ;
         lodcom:refArea             lodcom:pluggendorf ;
@@ -2507,6 +2818,7 @@ lodcom:single_age_obs_53
 lodcom:single_age_obs_167
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "741"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-sued ;
@@ -2515,6 +2827,7 @@ lodcom:single_age_obs_167
 lodcom:single_age_obs_433
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "112"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup ;
@@ -2523,6 +2836,7 @@ lodcom:single_age_obs_433
 lodcom:single_age_obs_348
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "628"^^xsd:int ;
         lodcom:refArea             lodcom:ost ;
@@ -2531,6 +2845,7 @@ lodcom:single_age_obs_348
 lodcom:single_age_obs_222
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "3384"^^xsd:int ;
         lodcom:refArea             lodcom:mitte ;
@@ -2539,6 +2854,7 @@ lodcom:single_age_obs_222
 lodcom:single_age_obs_23
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "62"^^xsd:int ;
         lodcom:refArea             lodcom:dom ;
@@ -2547,6 +2863,7 @@ lodcom:single_age_obs_23
 lodcom:single_age_obs_137
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "62"^^xsd:int ;
         lodcom:refArea             lodcom:geist ;
@@ -2555,6 +2872,7 @@ lodcom:single_age_obs_137
 lodcom:single_age_obs_403
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "120"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-ost ;
@@ -2563,6 +2881,7 @@ lodcom:single_age_obs_403
 lodcom:single_age_obs_318
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "736"^^xsd:int ;
         lodcom:refArea             lodcom:nord ;
@@ -2571,6 +2890,7 @@ lodcom:single_age_obs_318
 lodcom:single_age_obs_294
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "157"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-ost ;
@@ -2579,6 +2899,7 @@ lodcom:single_age_obs_294
 lodcom:single_age_obs_107
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "341"^^xsd:int ;
         lodcom:refArea             lodcom:neutor ;
@@ -2587,6 +2908,7 @@ lodcom:single_age_obs_107
 lodcom:single_age_obs_95
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "163"^^xsd:int ;
         lodcom:refArea             lodcom:schlachthof ;
@@ -2595,6 +2917,7 @@ lodcom:single_age_obs_95
 lodcom:single_age_obs_264
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "118"^^xsd:int ;
         lodcom:refArea             lodcom:roxel ;
@@ -2603,6 +2926,7 @@ lodcom:single_age_obs_264
 lodcom:single_age_obs_65
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "20"^^xsd:int ;
         lodcom:refArea             lodcom:bahnhof ;
@@ -2611,6 +2935,7 @@ lodcom:single_age_obs_65
 lodcom:single_age_obs_179
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "431"^^xsd:int ;
         lodcom:refArea             lodcom:herz-jesu ;
@@ -2619,6 +2944,7 @@ lodcom:single_age_obs_179
 lodcom:single_age_obs_445
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "11312"^^xsd:int ;
         lodcom:refArea             lodcom:muenster ;
@@ -2627,6 +2953,7 @@ lodcom:single_age_obs_445
 lodcom:single_age_obs_234
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1760"^^xsd:int ;
         lodcom:refArea             lodcom:sentrup ;
@@ -2635,6 +2962,7 @@ lodcom:single_age_obs_234
 lodcom:single_age_obs_35
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "122"^^xsd:int ;
         lodcom:refArea             lodcom:martini ;
@@ -2643,6 +2971,7 @@ lodcom:single_age_obs_35
 lodcom:single_age_obs_149
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "384"^^xsd:int ;
         lodcom:refArea             lodcom:schuetzenhof ;
@@ -2651,6 +2980,7 @@ lodcom:single_age_obs_149
 lodcom:single_age_obs_415
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "307"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-mitte ;
@@ -2659,6 +2989,7 @@ lodcom:single_age_obs_415
 lodcom:single_age_obs_391
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "742"^^xsd:int ;
         lodcom:refArea             lodcom:suedost ;
@@ -2667,6 +2998,7 @@ lodcom:single_age_obs_391
 lodcom:single_age_obs_204
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "401"^^xsd:int ;
         lodcom:refArea             lodcom:uppenberg ;
@@ -2675,6 +3007,7 @@ lodcom:single_age_obs_204
 lodcom:single_age_obs_119
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "67"^^xsd:int ;
         lodcom:refArea             lodcom:schloss ;
@@ -2683,6 +3016,7 @@ lodcom:single_age_obs_119
 lodcom:single_age_obs_180
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "264"^^xsd:int ;
         lodcom:refArea             lodcom:herz-jesu ;
@@ -2691,6 +3025,7 @@ lodcom:single_age_obs_180
 lodcom:single_age_obs_361
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "20"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-ost ;
@@ -2699,6 +3034,7 @@ lodcom:single_age_obs_361
 lodcom:single_age_obs_276
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "1433"^^xsd:int ;
         lodcom:refArea             lodcom:west ;
@@ -2707,6 +3043,7 @@ lodcom:single_age_obs_276
 lodcom:single_age_obs_77
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "360"^^xsd:int ;
         lodcom:refArea             lodcom:hansaplatz ;
@@ -2715,6 +3052,7 @@ lodcom:single_age_obs_77
 lodcom:single_age_obs_150
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "203"^^xsd:int ;
         lodcom:refArea             lodcom:schuetzenhof ;
@@ -2723,6 +3061,7 @@ lodcom:single_age_obs_150
 lodcom:single_age_obs_331
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "80"^^xsd:int ;
         lodcom:refArea             lodcom:gelmer-dyckburg ;
@@ -2731,6 +3070,7 @@ lodcom:single_age_obs_331
 lodcom:single_age_obs_246
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "236"^^xsd:int ;
         lodcom:refArea             lodcom:mecklenbeck ;
@@ -2739,6 +3079,7 @@ lodcom:single_age_obs_246
 lodcom:single_age_obs_47
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "252"^^xsd:int ;
         lodcom:refArea             lodcom:altstadt ;
@@ -2747,6 +3088,7 @@ lodcom:single_age_obs_47
 lodcom:single_age_obs_120
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "39"^^xsd:int ;
         lodcom:refArea             lodcom:schloss ;
@@ -2755,6 +3097,7 @@ lodcom:single_age_obs_120
 lodcom:single_age_obs_427
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "84"^^xsd:int ;
         lodcom:refArea             lodcom:amelsbueren ;
@@ -2763,6 +3106,7 @@ lodcom:single_age_obs_427
 lodcom:single_age_obs_301
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "350"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-west ;
@@ -2771,6 +3115,7 @@ lodcom:single_age_obs_301
 lodcom:single_age_obs_216
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "835"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-nordost ;
@@ -2779,6 +3124,7 @@ lodcom:single_age_obs_216
 lodcom:single_age_obs_17
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "37"^^xsd:int ;
         lodcom:refArea             lodcom:dom ;
@@ -2787,6 +3133,7 @@ lodcom:single_age_obs_17
 lodcom:single_age_obs_192
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "321"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-mitte ;
@@ -2795,6 +3142,7 @@ lodcom:single_age_obs_192
 lodcom:single_age_obs_373
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "299"^^xsd:int ;
         lodcom:refArea             lodcom:angelmodde ;
@@ -2803,6 +3151,7 @@ lodcom:single_age_obs_373
 lodcom:single_age_obs_288
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "232"^^xsd:int ;
         lodcom:refArea             lodcom:coerde ;
@@ -2811,6 +3160,7 @@ lodcom:single_age_obs_288
 lodcom:single_age_obs_89
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "34"^^xsd:int ;
         lodcom:refArea             lodcom:schlachthof ;
@@ -2819,6 +3169,7 @@ lodcom:single_age_obs_89
 lodcom:single_age_obs_162
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "3371"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-sued ;
@@ -2827,6 +3178,7 @@ lodcom:single_age_obs_162
 lodcom:single_age_obs_343
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "228"^^xsd:int ;
         lodcom:refArea             lodcom:handorf ;
@@ -2835,6 +3187,7 @@ lodcom:single_age_obs_343
 lodcom:single_age_obs_258
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "422"^^xsd:int ;
         lodcom:refArea             lodcom:roxel ;
@@ -2843,6 +3196,7 @@ lodcom:single_age_obs_258
 lodcom:single_age_obs_59
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "883"^^xsd:int ;
         lodcom:refArea             lodcom:josef ;
@@ -2851,6 +3205,7 @@ lodcom:single_age_obs_59
 lodcom:single_age_obs_132
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "186"^^xsd:int ;
         lodcom:refArea             lodcom:aaseestadt ;
@@ -2859,6 +3214,7 @@ lodcom:single_age_obs_132
 lodcom:single_age_obs_439
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "936"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup ;
@@ -2867,6 +3223,7 @@ lodcom:single_age_obs_439
 lodcom:single_age_obs_313
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "135"^^xsd:int ;
         lodcom:refArea             lodcom:nord ;
@@ -2875,6 +3232,7 @@ lodcom:single_age_obs_313
 lodcom:single_age_obs_228
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "402"^^xsd:int ;
         lodcom:refArea             lodcom:gievenbeck ;
@@ -2883,6 +3241,7 @@ lodcom:single_age_obs_228
 lodcom:single_age_obs_29
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "81"^^xsd:int ;
         lodcom:refArea             lodcom:buddenturm ;
@@ -2891,6 +3250,7 @@ lodcom:single_age_obs_29
 lodcom:single_age_obs_102
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "453"^^xsd:int ;
         lodcom:refArea             lodcom:kreuz ;
@@ -2899,6 +3259,7 @@ lodcom:single_age_obs_102
 lodcom:single_age_obs_90
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "553"^^xsd:int ;
         lodcom:refArea             lodcom:schlachthof ;
@@ -2907,6 +3268,7 @@ lodcom:single_age_obs_90
 lodcom:single_age_obs_409
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "27"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-mitte ;
@@ -2915,6 +3277,7 @@ lodcom:single_age_obs_409
 lodcom:single_age_obs_385
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "91"^^xsd:int ;
         lodcom:refArea             lodcom:suedost ;
@@ -2923,6 +3286,7 @@ lodcom:single_age_obs_385
 lodcom:single_age_obs_6
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "42"^^xsd:int ;
         lodcom:refArea             lodcom:aegidii ;
@@ -2931,6 +3295,7 @@ lodcom:single_age_obs_6
 lodcom:single_age_obs_60
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "427"^^xsd:int ;
         lodcom:refArea             lodcom:josef ;
@@ -2939,6 +3304,7 @@ lodcom:single_age_obs_60
 lodcom:single_age_obs_174
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "18"^^xsd:int ;
         lodcom:refArea             lodcom:hafen ;
@@ -2947,6 +3313,7 @@ lodcom:single_age_obs_174
 lodcom:single_age_obs_440
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "667"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup ;
@@ -2955,6 +3322,7 @@ lodcom:single_age_obs_440
 lodcom:single_age_obs_355
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "147"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-west ;
@@ -2963,6 +3331,7 @@ lodcom:single_age_obs_355
 lodcom:single_age_obs_30
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "57"^^xsd:int ;
         lodcom:refArea             lodcom:buddenturm ;
@@ -2971,6 +3340,7 @@ lodcom:single_age_obs_30
 lodcom:single_age_obs_144
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "210"^^xsd:int ;
         lodcom:refArea             lodcom:geist ;
@@ -2979,6 +3349,7 @@ lodcom:single_age_obs_144
 lodcom:single_age_obs_410
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "390"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-mitte ;
@@ -2987,6 +3358,7 @@ lodcom:single_age_obs_410
 lodcom:single_age_obs_325
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "413"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-ost ;
@@ -2995,6 +3367,7 @@ lodcom:single_age_obs_325
 lodcom:single_age_obs_114
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "318"^^xsd:int ;
         lodcom:refArea             lodcom:schloss ;
@@ -3003,6 +3376,7 @@ lodcom:single_age_obs_114
 lodcom:single_age_obs_397
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "157"^^xsd:int ;
         lodcom:refArea             lodcom:berg_fidel ;
@@ -3011,6 +3385,7 @@ lodcom:single_age_obs_397
 lodcom:single_age_obs_271
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "183"^^xsd:int ;
         lodcom:refArea             lodcom:nienberge ;
@@ -3019,6 +3394,7 @@ lodcom:single_age_obs_271
 lodcom:single_age_obs_72
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "15"^^xsd:int ;
         lodcom:refArea             lodcom:bahnhof ;
@@ -3027,6 +3403,7 @@ lodcom:single_age_obs_72
 lodcom:single_age_obs_186
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1047"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-mitte ;
@@ -3035,6 +3412,7 @@ lodcom:single_age_obs_186
 lodcom:single_age_obs_367
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "161"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-ost ;
@@ -3043,6 +3421,7 @@ lodcom:single_age_obs_367
 lodcom:single_age_obs_241
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "81"^^xsd:int ;
         lodcom:refArea             lodcom:mecklenbeck ;
@@ -3051,6 +3430,7 @@ lodcom:single_age_obs_241
 lodcom:single_age_obs_42
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "2268"^^xsd:int ;
         lodcom:refArea             lodcom:altstadt ;
@@ -3059,6 +3439,7 @@ lodcom:single_age_obs_42
 lodcom:single_age_obs_156
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "236"^^xsd:int ;
         lodcom:refArea             lodcom:dueesberg ;
@@ -3067,6 +3448,7 @@ lodcom:single_age_obs_156
 lodcom:single_age_obs_422
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "247"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-west ;
@@ -3075,6 +3457,7 @@ lodcom:single_age_obs_422
 lodcom:single_age_obs_337
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "14"^^xsd:int ;
         lodcom:refArea             lodcom:handorf ;
@@ -3083,6 +3466,7 @@ lodcom:single_age_obs_337
 lodcom:single_age_obs_211
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "2014"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-nordost ;
@@ -3091,6 +3475,7 @@ lodcom:single_age_obs_211
 lodcom:single_age_obs_12
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "52"^^xsd:int ;
         lodcom:refArea             lodcom:ueberwasser ;
@@ -3099,6 +3484,7 @@ lodcom:single_age_obs_12
 lodcom:single_age_obs_126
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "1498"^^xsd:int ;
         lodcom:refArea             lodcom:innenstadtring ;
@@ -3107,6 +3493,7 @@ lodcom:single_age_obs_126
 lodcom:single_age_obs_307
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "68"^^xsd:int ;
         lodcom:refArea             lodcom:sprakel ;
@@ -3115,6 +3502,7 @@ lodcom:single_age_obs_307
 lodcom:single_age_obs_283
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "253"^^xsd:int ;
         lodcom:refArea             lodcom:coerde ;
@@ -3123,6 +3511,7 @@ lodcom:single_age_obs_283
 lodcom:single_age_obs_84
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "369"^^xsd:int ;
         lodcom:refArea             lodcom:mauritz-west ;
@@ -3131,6 +3520,7 @@ lodcom:single_age_obs_84
 lodcom:single_age_obs_198
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "196"^^xsd:int ;
         lodcom:refArea             lodcom:rumphorst ;
@@ -3139,6 +3529,7 @@ lodcom:single_age_obs_198
 lodcom:single_age_obs_379
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "176"^^xsd:int ;
         lodcom:refArea             lodcom:wolbeck ;
@@ -3147,6 +3538,7 @@ lodcom:single_age_obs_379
 lodcom:single_age_obs_253
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "158"^^xsd:int ;
         lodcom:refArea             lodcom:albachten ;
@@ -3155,6 +3547,7 @@ lodcom:single_age_obs_253
 lodcom:single_age_obs_54
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "100"^^xsd:int ;
         lodcom:refArea             lodcom:pluggendorf ;
@@ -3163,6 +3556,7 @@ lodcom:single_age_obs_54
 lodcom:single_age_obs_168
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "698"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-sued ;
@@ -3171,6 +3565,7 @@ lodcom:single_age_obs_168
 lodcom:single_age_obs_434
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1053"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup ;
@@ -3179,6 +3574,7 @@ lodcom:single_age_obs_434
 lodcom:single_age_obs_349
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "746"^^xsd:int ;
         lodcom:refArea             lodcom:ost ;
@@ -3187,6 +3583,7 @@ lodcom:single_age_obs_349
 lodcom:single_age_obs_223
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "3003"^^xsd:int ;
         lodcom:refArea             lodcom:mitte ;
@@ -3195,6 +3592,7 @@ lodcom:single_age_obs_223
 lodcom:single_age_obs_24
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "47"^^xsd:int ;
         lodcom:refArea             lodcom:dom ;
@@ -3203,6 +3601,7 @@ lodcom:single_age_obs_24
 lodcom:single_age_obs_138
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "1053"^^xsd:int ;
         lodcom:refArea             lodcom:geist ;
@@ -3211,6 +3610,7 @@ lodcom:single_age_obs_138
 lodcom:single_age_obs_404
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "111"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-ost ;
@@ -3219,6 +3619,7 @@ lodcom:single_age_obs_404
 lodcom:single_age_obs_319
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "783"^^xsd:int ;
         lodcom:refArea             lodcom:nord ;
@@ -3227,6 +3628,7 @@ lodcom:single_age_obs_319
 lodcom:single_age_obs_380
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "222"^^xsd:int ;
         lodcom:refArea             lodcom:wolbeck ;
@@ -3235,6 +3637,7 @@ lodcom:single_age_obs_380
 lodcom:single_age_obs_1
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "13"^^xsd:int ;
         lodcom:refArea             lodcom:aegidii ;
@@ -3243,6 +3646,7 @@ lodcom:single_age_obs_1
 lodcom:single_age_obs_295
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "155"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-ost ;
@@ -3251,6 +3655,7 @@ lodcom:single_age_obs_295
 lodcom:single_age_obs_108
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "134"^^xsd:int ;
         lodcom:refArea             lodcom:neutor ;
@@ -3259,6 +3664,7 @@ lodcom:single_age_obs_108
 lodcom:single_age_obs_96
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "113"^^xsd:int ;
         lodcom:refArea             lodcom:schlachthof ;
@@ -3267,6 +3673,7 @@ lodcom:single_age_obs_96
 lodcom:single_age_obs_350
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "504"^^xsd:int ;
         lodcom:refArea             lodcom:ost ;
@@ -3275,6 +3682,7 @@ lodcom:single_age_obs_350
 lodcom:single_age_obs_265
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "42"^^xsd:int ;
         lodcom:refArea             lodcom:nienberge ;
@@ -3283,6 +3691,7 @@ lodcom:single_age_obs_265
 lodcom:single_age_obs_66
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "433"^^xsd:int ;
         lodcom:refArea             lodcom:bahnhof ;
@@ -3291,6 +3700,7 @@ lodcom:single_age_obs_66
 lodcom:single_age_obs_446
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "7459"^^xsd:int ;
         lodcom:refArea             lodcom:muenster ;
@@ -3299,6 +3709,7 @@ lodcom:single_age_obs_446
 lodcom:single_age_obs_320
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "569"^^xsd:int ;
         lodcom:refArea             lodcom:nord ;
@@ -3307,6 +3718,7 @@ lodcom:single_age_obs_320
 lodcom:single_age_obs_235
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "318"^^xsd:int ;
         lodcom:refArea             lodcom:sentrup ;
@@ -3315,6 +3727,7 @@ lodcom:single_age_obs_235
 lodcom:single_age_obs_36
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "66"^^xsd:int ;
         lodcom:refArea             lodcom:martini ;
@@ -3323,6 +3736,7 @@ lodcom:single_age_obs_36
 lodcom:single_age_obs_416
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "269"^^xsd:int ;
         lodcom:refArea             lodcom:hiltrup-mitte ;
@@ -3331,6 +3745,7 @@ lodcom:single_age_obs_416
 lodcom:single_age_obs_392
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "566"^^xsd:int ;
         lodcom:refArea             lodcom:suedost ;
@@ -3339,6 +3754,7 @@ lodcom:single_age_obs_392
 lodcom:single_age_obs_205
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "405"^^xsd:int ;
         lodcom:refArea             lodcom:uppenberg ;
@@ -3347,6 +3763,7 @@ lodcom:single_age_obs_205
 lodcom:single_age_obs_181
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "224"^^xsd:int ;
         lodcom:refArea             lodcom:herz-jesu ;
@@ -3355,6 +3772,7 @@ lodcom:single_age_obs_181
 lodcom:single_age_obs_362
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "250"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-ost ;
@@ -3363,6 +3781,7 @@ lodcom:single_age_obs_362
 lodcom:single_age_obs_277
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "1634"^^xsd:int ;
         lodcom:refArea             lodcom:west ;
@@ -3371,6 +3790,7 @@ lodcom:single_age_obs_277
 lodcom:single_age_obs_78
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "177"^^xsd:int ;
         lodcom:refArea             lodcom:hansaplatz ;
@@ -3379,6 +3799,7 @@ lodcom:single_age_obs_78
 lodcom:single_age_obs_151
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "167"^^xsd:int ;
         lodcom:refArea             lodcom:schuetzenhof ;
@@ -3387,6 +3808,7 @@ lodcom:single_age_obs_151
 lodcom:single_age_obs_332
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "106"^^xsd:int ;
         lodcom:refArea             lodcom:gelmer-dyckburg ;
@@ -3395,6 +3817,7 @@ lodcom:single_age_obs_332
 lodcom:single_age_obs_247
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "198"^^xsd:int ;
         lodcom:refArea             lodcom:mecklenbeck ;
@@ -3403,6 +3826,7 @@ lodcom:single_age_obs_247
 lodcom:single_age_obs_48
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "185"^^xsd:int ;
         lodcom:refArea             lodcom:altstadt ;
@@ -3411,6 +3835,7 @@ lodcom:single_age_obs_48
 lodcom:single_age_obs_121
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "583"^^xsd:int ;
         lodcom:refArea             lodcom:innenstadtring ;
@@ -3419,6 +3844,7 @@ lodcom:single_age_obs_121
 lodcom:single_age_obs_428
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "125"^^xsd:int ;
         lodcom:refArea             lodcom:amelsbueren ;
@@ -3427,6 +3853,7 @@ lodcom:single_age_obs_428
 lodcom:single_age_obs_302
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "268"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-west ;
@@ -3435,6 +3862,7 @@ lodcom:single_age_obs_302
 lodcom:single_age_obs_217
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "1156"^^xsd:int ;
         lodcom:refArea             lodcom:mitte ;
@@ -3443,6 +3871,7 @@ lodcom:single_age_obs_217
 lodcom:single_age_obs_18
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "540"^^xsd:int ;
         lodcom:refArea             lodcom:dom ;
@@ -3451,6 +3880,7 @@ lodcom:single_age_obs_18
 lodcom:single_age_obs_193
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "46"^^xsd:int ;
         lodcom:refArea             lodcom:rumphorst ;
@@ -3459,6 +3889,7 @@ lodcom:single_age_obs_193
 lodcom:single_age_obs_374
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_60_69 ;
         lodcom:numberOfHouseholds  "233"^^xsd:int ;
         lodcom:refArea             lodcom:angelmodde ;
@@ -3467,6 +3898,7 @@ lodcom:single_age_obs_374
 lodcom:single_age_obs_289
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "39"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-ost ;
@@ -3475,6 +3907,7 @@ lodcom:single_age_obs_289
 lodcom:single_age_obs_163
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "1854"^^xsd:int ;
         lodcom:refArea             lodcom:mitte-sued ;
@@ -3483,6 +3916,7 @@ lodcom:single_age_obs_163
 lodcom:single_age_obs_344
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_80 ;
         lodcom:numberOfHouseholds  "168"^^xsd:int ;
         lodcom:refArea             lodcom:handorf ;
@@ -3491,6 +3925,7 @@ lodcom:single_age_obs_344
 lodcom:single_age_obs_259
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "280"^^xsd:int ;
         lodcom:refArea             lodcom:roxel ;
@@ -3499,6 +3934,7 @@ lodcom:single_age_obs_259
 lodcom:single_age_obs_133
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "214"^^xsd:int ;
         lodcom:refArea             lodcom:aaseestadt ;
@@ -3507,6 +3943,7 @@ lodcom:single_age_obs_133
 lodcom:single_age_obs_314
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "936"^^xsd:int ;
         lodcom:refArea             lodcom:nord ;
@@ -3515,6 +3952,7 @@ lodcom:single_age_obs_314
 lodcom:single_age_obs_229
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "430"^^xsd:int ;
         lodcom:refArea             lodcom:gievenbeck ;
@@ -3523,6 +3961,7 @@ lodcom:single_age_obs_229
 lodcom:single_age_obs_290
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "284"^^xsd:int ;
         lodcom:refArea             lodcom:kinderhaus-ost ;
@@ -3531,6 +3970,7 @@ lodcom:single_age_obs_290
 lodcom:single_age_obs_103
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "324"^^xsd:int ;
         lodcom:refArea             lodcom:kreuz ;
@@ -3539,6 +3979,7 @@ lodcom:single_age_obs_103
 lodcom:single_age_obs_91
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_30_39 ;
         lodcom:numberOfHouseholds  "349"^^xsd:int ;
         lodcom:refArea             lodcom:schlachthof ;
@@ -3547,6 +3988,7 @@ lodcom:single_age_obs_91
 lodcom:single_age_obs_386
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_20_29 ;
         lodcom:numberOfHouseholds  "938"^^xsd:int ;
         lodcom:refArea             lodcom:suedost ;
@@ -3555,6 +3997,7 @@ lodcom:single_age_obs_386
 lodcom:single_age_obs_260
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "306"^^xsd:int ;
         lodcom:refArea             lodcom:roxel ;
@@ -3563,6 +4006,7 @@ lodcom:single_age_obs_260
 lodcom:single_age_obs_7
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "62"^^xsd:int ;
         lodcom:refArea             lodcom:aegidii ;
@@ -3571,6 +4015,7 @@ lodcom:single_age_obs_7
 lodcom:single_age_obs_61
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_50_59 ;
         lodcom:numberOfHouseholds  "405"^^xsd:int ;
         lodcom:refArea             lodcom:josef ;
@@ -3579,6 +4024,7 @@ lodcom:single_age_obs_61
 lodcom:single_age_obs_175
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_70_79 ;
         lodcom:numberOfHouseholds  "20"^^xsd:int ;
         lodcom:refArea             lodcom:hafen ;
@@ -3587,6 +4033,7 @@ lodcom:single_age_obs_175
 lodcom:single_age_obs_441
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_0_19 ;
         lodcom:numberOfHouseholds  "2097"^^xsd:int ;
         lodcom:refArea             lodcom:muenster ;
@@ -3595,6 +4042,7 @@ lodcom:single_age_obs_441
 lodcom:single_age_obs_356
         a                          qb:Observation ;
         qb:dataSet                 lodcom:SingleHouseholdAgeRangeCount ;
+        qb:measureType             lodcom:numberOfHouseholds ;
         lodcom:ageRange            lodcom:AgeRange_40_49 ;
         lodcom:numberOfHouseholds  "177"^^xsd:int ;
         lodcom:refArea             lodcom:gremmendorf-west ;
