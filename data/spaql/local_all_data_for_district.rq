@@ -26,7 +26,7 @@ PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
 PREFIX dc:    <http://purl.org/dc/terms/>
 
 
-SELECT DISTINCT ?hafen ?dataSet ?time ?sex ?age ?measure ?value
+SELECT DISTINCT ?hafen ?dataSet ?time ?sex ?age ?measure ?value ?uom
 WHERE {
 
 	?hafen a ?adminArea.
@@ -45,6 +45,14 @@ WHERE {
 	}
 	OPTIONAL {
 		?obs lodcom:ageRange ?age.
+	}
+	
+	OPTIONAL {
+		?obs qb:dataSet ?ds.
+		?ds sdmx-attribute:unitMeasure ?uom.
+	}
+	OPTIONAL {
+		?obs sdmx-attribute:unitMeasure ?uom.
 	}
 }
 ORDER BY ?dataSet ASC(?time)
