@@ -11,9 +11,10 @@ PREFIX sf: <http://www.opengis.net/ont/sf#>
 PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX lodcom: <http://vocab.lodcom.de/>
 
 SELECT ?name ?wkt WHERE { GRAPH <http://course.introlinkeddata.org/G4> {
-	?bezirk rdf:type <http://vocab.lodcom.de/Stadtbezirk> .
+	?bezirk rdf:type lodcom:Stadtbezirk .
 	?bezirk <http://www.w3.org/2000/01/rdf-schema#label> ?name .
 	?bezirk geo:hasGeometry ?geometry .
 	?geometry geo:asWKT ?wkt

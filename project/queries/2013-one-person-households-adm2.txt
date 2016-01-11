@@ -13,10 +13,10 @@ PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX lodcom: <http://vocab.lodcom.de/>
 
-SELECT ?name ?wkt WHERE { GRAPH <http://course.introlinkeddata.org/G4> {
-	?bezirk rdf:type lodcom:Teilbereich .
-	?bezirk <http://www.w3.org/2000/01/rdf-schema#label> ?name .
-	?bezirk geo:hasGeometry ?geometry .
-	?geometry geo:asWKT ?wkt
-	FILTER NOT EXISTS { ?bezirk rdf:type lodcom:Stadtbezirk }
+SELECT ?num ?staddteil WHERE { GRAPH <http://course.introlinkeddata.org/G4> {
+	?obs <http://purl.org/linked-data/cube#dataSet> lodcom:SingleHouseholdTotalCount .
+	?obs <http://vocab.lodcom.de/numberOfHouseholds> ?num .
+	?obs lodcom:refArea ?staddteil .
+	?obs lodcom:refPeriod <http://reference.data.gov.uk/id/gregorian-interval/2013-01-01T00:00:00/P1Y>
+	FILTER NOT EXISTS { ?staddteil rdf:type lodcom:Stadtbezirk }
 }}
