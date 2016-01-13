@@ -18,5 +18,4 @@ SELECT ?name ?wkt WHERE { GRAPH <http://course.introlinkeddata.org/G4> {
 	?bezirk <http://www.w3.org/2000/01/rdf-schema#label> ?name .
 	?bezirk geo:hasGeometry ?geometry .
 	?geometry geo:asWKT ?wkt
-	FILTER NOT EXISTS { ?bezirk rdf:type lodcom:Stadtbezirk }
 }}
