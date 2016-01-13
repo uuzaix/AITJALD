@@ -60,7 +60,7 @@ var currentYear = 2011;
 var showThis = "Stadtteil";
 map.on('zoomend', function () {
     console.log(map.getZoom());
-    if (map.getZoom() >= 13){
+    if (map.getZoom() >= 12){
         if(showThis == "Stadtbezirk") {
             showThis = "Stadtteil";
             year(currentYear);
