@@ -6,6 +6,7 @@
 @prefix geo:   <http://www.opengis.net/ont/geosparql#> .
 @prefix dbo:   <http://dbpedia.org/ontology/> .
 @prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
 @prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .

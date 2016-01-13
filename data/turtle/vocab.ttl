@@ -6,6 +6,7 @@
 @prefix geo:   <http://www.opengis.net/ont/geosparql#> .
 @prefix dbo:   <http://dbpedia.org/ontology/> .
 @prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
 @prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
@@ -25,6 +26,9 @@ lodcom:upperAdministrativeLevel
         rdfs:comment  "relates an administrative region to its next higher administrative level, e.g. districts to sub borough or boroughs." ;
         rdfs:domain   dbo:AdministrativeRegion ;
         rdfs:range    dbo:AdministrativeRegion .
+
+dbo:AdministrativeRegion
+        rdfs:subClassOf  "http://www.opengis.net/ont/geosparql#Feature" .
 
 lodcom:districtId  a  rdf:Property ;
         rdfs:comment  "The city administration uses unique identifier for their districts." ;
