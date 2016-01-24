@@ -18,23 +18,24 @@ PREFIX sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#>
 PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
 PREFIX dc:    <http://purl.org/dc/terms/>
 
-Select ?x ?prop ?val
+SELECT DISTINCT ?x ?prop ?val
 WHERE {
 	GRAPH <http://course.introlinkeddata.org/G4> {
-		{
-			{ 
-				?x a rdf:Property.
-			} UNION {
-				?x rdfs:subPropertyOf ?y.
-			}
+		{ 
+			?x a rdf:Property.
 		} UNION {
-			{ 
-				?x a rdf:Class.
-			} UNION {
-				?x rdfs:subClassOf ?y.
-			}
+			?x rdfs:subPropertyOf ?y.
+		} UNION {
+			?x a rdfs:Class.
+		} UNION {
+			?x rdfs:subClassOf ?y.
+		} UNION {
+			?x a qb:DataSet.
+		} UNION {
+			?x a qb:DataStructureDefinition.
 		}
+
 		
 		?x ?prop ?val.
 	}
-}
+} ORDER BY ?x

@@ -29,14 +29,14 @@
 					<li><a href="#" id="y2012">2012</a></li>
 					<li><a href="#" id="y2013">2013</a></li>
 					<li><a href="#" id="y2014">2014</a></li>
-					<li><a href="#" id="doc_tab">Documentation</a></li>
+					<li><a href="#" id="voc_tab">Vocabulary</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
 	</nav>
 
 	<div id="map"></div>
-	<div id="doc"></div>
+	<div id="voc"></div>
 
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -46,6 +46,10 @@
 	<script src="https://rawgit.com/gka/chroma.js/master/chroma.min.js"></script>
 	
 	<script>
+		var GLOBAL = {
+			"DOCUMENTATION_FETCHED": false
+		};
+		
 		function hideMap() {
 			$('#map').hide();
 		}
