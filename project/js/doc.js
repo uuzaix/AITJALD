@@ -87,6 +87,10 @@ var QUERY_DOC = "SELECT DISTINCT ?x ?prop ?val\r\n" +
             "           ?x a qb:DataSet.\r\n" + 
             "       } UNION {\r\n" + 
             "           ?x a qb:DataStructureDefinition.\r\n" + 
+            "       } UNION {\r\n" + 
+            "           ?x rdfs:comment ?z.\r\n" + 
+            "       } UNION {\r\n" + 
+            "           ?x a qb:Dimension.\r\n" + 
             "       }\r\n" + 
             "\r\n" + 
             "       \r\n" + 
@@ -161,7 +165,8 @@ var VocabularyEntryTemplate = {
      */
     setTitle: function(uri) {
         this.entryDiv.attr("id",uri);
-        this.title.text(uri).attr("href",uri).attr("target","_blank");
+        this.title.text(uri).attr("href","#"+uri);
+
     },
     /**
      * Setting the description.
@@ -243,7 +248,12 @@ function VocabularyEntry() {
  */
 function evalType(obj) {
     if (obj.type == "uri") {
-        var uri = $("<a>", {href: obj.value, text:obj.value, target:"_blank"});
+        var uri = null;
+        if (obj.value.indexOf(Prefixes.vocabularies["lodcom"]) > -1) {
+            uri = $("<a>", {href: "#"+obj.value, text:obj.value});
+        } else {
+            uri = $("<a>", {href: obj.value, text:obj.value, target:"_blank"});
+        }
         return uri;
     } else {
         return obj.value;

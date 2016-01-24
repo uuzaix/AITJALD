@@ -46,16 +46,27 @@
 	<script src="https://rawgit.com/gka/chroma.js/master/chroma.min.js"></script>
 	
 	<script>
+		// global variables / flags
 		var GLOBAL = {
 			"DOCUMENTATION_FETCHED": false
 		};
+		
+		// toggles the activation in the navbar
+		$('.navbar li').click(function(e) {
+		    $('.navbar li.active').removeClass('active');
+		    var $this = $(this);
+		    if (!$this.hasClass('active')) {
+		        $this.addClass('active');
+		    }
+		    e.preventDefault();
+		});
 		
 		function hideMap() {
 			$('#map').hide();
 		}
 		
 		function showDocumentation() {
-			$('#doc').show();
+			$('#voc').show();
 		}
 		
 		function showMap() {
@@ -63,7 +74,7 @@
 		}
 		
 		function hideDocumentation() {
-			$('#doc').hide();
+			$('#voc').hide();
 		}
 	</script>
 	<script src="js/doc.js"></script>

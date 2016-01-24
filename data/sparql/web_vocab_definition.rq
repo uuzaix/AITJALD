@@ -33,6 +33,10 @@ WHERE {
 			?x a qb:DataSet.
 		} UNION {
 			?x a qb:DataStructureDefinition.
+		} UNION {
+			?x rdfs:comment ?z.
+		} UNION {
+			?x a qb:Dimension.
 		}
 
 		
